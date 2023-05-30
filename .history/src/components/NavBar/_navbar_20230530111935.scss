@@ -1,0 +1,33 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.nav-container {
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+  z-index: 2 !important;
+  padding-bottom: 0;
+  height: 110px;
+  background-color: #fff !important;
+  ul li {
+    margin-top: 20px !important;
+  }
+  .nav-btn {
+    @include app-btn;
+    padding: 8px 40px;
+    // margin-top: 0 !important;
+    border: none;
+  }
+  .tech-logo-div {
+    flex-grow: 1 !important;
+  }
+  .tech-links {
+    color: #000;
+    text-decoration: none;
+    font-family: helveticaM;
+    margin: 0px 28px !important;
+    &:hover {
+      color: $red;
+    }
+  }
+}

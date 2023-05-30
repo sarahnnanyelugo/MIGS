@@ -1,0 +1,18 @@
+$yellow: rgb(255, 210, 16);
+$red: #ff5252;
+$skyblue: rgb(83, 180, 242);
+$lightblue: rgb(12, 99, 177);
+$lightblue2: rgb(12, 88, 160);
+$lighterblue: rgb(211, 236, 252);
+$deepblue2: rgb(0, 79, 157);
+$mainblue: rgb(1, 71, 141);
+
+@mixin division-button {
+  color: #fff;
+  border-radius: 35px;
+  border: solid 1px #414244;
+  padding: 8px 20px;
+  font-size: 14px;
+  background: $red;
+  width: 100%;
+}

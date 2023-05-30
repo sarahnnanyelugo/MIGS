@@ -1,0 +1,22 @@
+$yellow: rgb(255, 210, 16);
+$red: #ff5252;
+$skyblue: rgb(83, 180, 242);
+$lightblue: rgb(12, 99, 177);
+$lightblue2: rgb(12, 88, 160);
+$lighterblue: rgb(211, 236, 252);
+$deepblue2: rgb(0, 79, 157);
+$mainblue: rgb(1, 71, 141);
+
+@mixin app-btn {
+  color: #fff;
+  border-radius: 35px;
+  padding: 8px 130px;
+  font-size: 14px;
+  background: $red;
+
+  font-family: helveticaM;
+  &:hover {
+    background: #c90e0e;
+    transition: 0.5s ease;
+  }
+}
