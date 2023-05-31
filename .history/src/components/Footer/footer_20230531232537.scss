@@ -1,0 +1,31 @@
+.footer-container {
+  padding: 100px 0;
+  font-family: helveticaM;
+  border-bottom: solid 1px #ebe5e5;
+  color: #343333;
+  h5 {
+    font-size: 18px !important;
+    font-family: helveticaM;
+    margin-bottom: 20px;
+    color: #343333;
+  }
+  .logo-div {
+    p {
+      margin-top: 20px;
+      margin-bottom: 70px;
+      font-size: 14px;
+    }
+  }
+  .link-div {
+    .app-link {
+      color: #343333;
+      text-decoration: none;
+      font-family: helveticaM;
+    }
+  }
+  . footer-contact {
+    img {
+      margin-right: 20px;
+    }
+  }
+}

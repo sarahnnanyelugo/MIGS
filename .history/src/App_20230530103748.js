@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import ScrollToTop from "./components/scrollToTop";
 import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -18,7 +17,6 @@ function App() {
         <Route path="team-hire" element={<TeamHire />} />
         <Route path="hire-page" element={<HiringPage />} /> */}
       </Routes>
-      <Footer />
     </>
   );
 }

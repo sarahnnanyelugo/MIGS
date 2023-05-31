@@ -13,7 +13,7 @@ function Tour() {
         </p>
       </div>
       <div className="col-md-8 offset-md-2 vidieo-div">
-        <div className="col-md-10 video-inner offset-md-1"></div>
+        <div className="col-md-10 video-inner"></div>
       </div>
     </div>
   );

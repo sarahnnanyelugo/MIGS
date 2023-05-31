@@ -12,8 +12,8 @@ function Tour() {
           Visit our classrooms, pupils, facilities and learn more about us.
         </p>
       </div>
-      <div className="col-md-8 offset-md-2 vidieo-div">
-        <div className="col-md-10 video-inner offset-md-1"></div>
+      <div className="col-md-7 offset-md-2 vidieo-div">
+        <div className="col-md-12 video-inner"></div>
       </div>
     </div>
   );
