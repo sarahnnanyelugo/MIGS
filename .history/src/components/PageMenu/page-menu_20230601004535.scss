@@ -1,0 +1,26 @@
+.page-menu-div {
+  background: #ffe4e4;
+  padding: 20px;
+  .menu-links {
+    text-decoration: none;
+    font-family: helveticaM;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: #343333;
+    border-radius: 35px;
+
+    &:hover {
+      background: #c90e0e;
+      color: #fff;
+      border-radius: 35px;
+      transition: 0.5s ease;
+    }
+  }
+  ul li {
+    margin: 20px 0;
+  }
+  .active {
+    border: solid 1px #c90e0e;
+    color: #ff5252;
+  }
+}

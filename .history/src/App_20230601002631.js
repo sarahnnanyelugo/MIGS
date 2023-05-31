@@ -6,8 +6,7 @@ import Home from "./pages/Home/Home";
 import ScrollToTop from "./components/scrollToTop";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-import AboutUs from "./pages/About-Us/AboutUs";
-
+import AboutUs from "./pages/A/AboutUs";
 function App() {
   return (
     <>

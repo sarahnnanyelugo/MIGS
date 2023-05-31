@@ -16,7 +16,7 @@ function NavBar() {
         </div>
         <ul className="list-inline list-unstyled ">
           <li className="list-inline-item">
-            <NavLink className="tech-links cool-link" to={"/about-us"}>
+            <NavLink className="tech-links cool-link" to={"/"}>
               About
             </NavLink>
           </li>
