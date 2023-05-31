@@ -7,7 +7,6 @@ import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 import Events from "./Events";
 import Prefooter from "../../components/Prefooter/Prefooter";
-import Tour from "../../components/Tour/Tour";
 
 function Home() {
   return (
@@ -352,9 +351,7 @@ function Home() {
           </div>
         </center>
       </div>
-      <Tour />
       <Prefooter />
-
       <div>
         <AppModal />
       </div>
