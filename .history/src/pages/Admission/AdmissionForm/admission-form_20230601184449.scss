@@ -1,0 +1,18 @@
+.form-container {
+  padding: 30px;
+  border-radius: 15px;
+  background: #fff;
+  margin-bottom: 100px;
+  input {
+    width: 100%;
+    border: solid 1px #cecdcd;
+    height: 55px;
+    border-radius: 5px;
+    &:focus {
+      border: solid 1px #cecdcd !important;
+    }
+  }
+  h6 {
+    margin-top: 30px;
+  }
+}

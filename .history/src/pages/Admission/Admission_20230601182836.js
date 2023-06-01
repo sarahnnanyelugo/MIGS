@@ -3,8 +3,6 @@ import { Breadcrum } from "../../components/BreadCrumb/BreadCrumb";
 import AdmissionProcess from "./AdmissionProcess/AdmissionProcess";
 import "./admission.scss";
 import AdmissionForm from "./AdmissionForm/AdmissionForm";
-import Tour from "../../components/Tour/Tour";
-import Prefooter from "../../components/Prefooter/Prefooter";
 function Admission() {
   return (
     <>
@@ -20,18 +18,16 @@ function Admission() {
           </div>
         </center>
         <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-7">
-            <div className="col-md-11">
+          <div className="col-md-6">
+            <div className="col-md-12">
               <AdmissionProcess />
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <AdmissionForm />
           </div>
         </div>
       </div>
-      <Tour />
-      <Prefooter />
     </>
   );
 }

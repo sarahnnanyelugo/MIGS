@@ -1,0 +1,29 @@
+.form-container {
+  padding: 60px 40px;
+  border-radius: 15px;
+  background: #fff;
+  margin-bottom: 100px;
+  input {
+    width: 100%;
+    border: solid 1px #cecdcd;
+    height: 55px;
+    border-radius: 5px;
+    &:focus {
+      border: solid 1px #cecdcd !important;
+    }
+  }
+  h6 {
+    margin-top: 30px;
+    font-family: helveticaM;
+    color: #707070;
+  }
+  h3,
+  h5 {
+    font-family: helveticaM;
+    color: #707070;
+  }
+  button {
+    margin-top: 30px;
+    padding: 12px 0;
+  }
+}
