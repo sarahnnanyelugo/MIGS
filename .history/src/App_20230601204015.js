@@ -28,7 +28,7 @@ function App() {
         <Route path="achievements" element={<Achievements />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="admission" element={<Admission />} />
-        <Route path="eyfs" element={<EYFS />} />
+        <Route path="eyfs " element={<Admission />} />
       </Routes>
       <Footer />
     </>

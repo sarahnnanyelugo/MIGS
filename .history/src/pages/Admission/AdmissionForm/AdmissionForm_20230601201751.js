@@ -94,7 +94,7 @@ function AdmissionForm() {
         </div>
         <center>
           <div className="col-md-8">
-            <div className="col-md-7">
+            <div className="col-md-8">
               {" "}
               <button className="app-btn " onClick={SubmitForm}>
                 Start Registration

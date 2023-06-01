@@ -1,0 +1,19 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.eyfs-div {
+  p {
+    color: #707070;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  .apply-link {
+    color: $red;
+  }
+  .apply-div {
+    background: #fff;
+  }
+}
+.eyfs-body {
+  background: #fafafa;
+}

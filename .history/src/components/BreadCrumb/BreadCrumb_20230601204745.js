@@ -10,7 +10,7 @@ export const Breadcrum = (props) => {
             Home{" "}
           </Link>
         </Breadcrumb.Item>
-        {props.nav ? <Breadcrumb.Item>{props.nav}</Breadcrumb.Item> : ""}
+        props.page5 ? (<Breadcrumb.Item>{props.nav}</Breadcrumb.Item>) : ( "" );
         <Breadcrumb.Item active>{props.currentPage}</Breadcrumb.Item>
       </Breadcrumb>
     </div>

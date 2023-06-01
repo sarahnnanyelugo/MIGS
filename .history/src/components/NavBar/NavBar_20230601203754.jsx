@@ -28,7 +28,7 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="list-inline-item">
-            <NavLink className="tech-links cool-link" to={"/eyfs"}>
+            <NavLink className="tech-links cool-link" to={"./eyfs"}>
               Academics
             </NavLink>
           </li>

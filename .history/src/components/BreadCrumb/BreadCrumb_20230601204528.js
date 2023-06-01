@@ -10,9 +10,20 @@ export const Breadcrum = (props) => {
             Home{" "}
           </Link>
         </Breadcrumb.Item>
-        {props.nav ? <Breadcrumb.Item>{props.nav}</Breadcrumb.Item> : ""}
+        <Breadcrumb.Item>{props.nav}</Breadcrumb.Item>
         <Breadcrumb.Item active>{props.currentPage}</Breadcrumb.Item>
       </Breadcrumb>
     </div>
   );
 };
+{
+  props.page5 ? (
+    <li className="list-inline-item">
+      <NavLink to={`${props.Url5}`} activeClassName="active">
+        {props.page5}
+      </NavLink>
+    </li>
+  ) : (
+    ""
+  );
+}
