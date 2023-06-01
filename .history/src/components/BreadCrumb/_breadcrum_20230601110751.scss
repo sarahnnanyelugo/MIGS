@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.breadcrumb-container {
+  // background: rgb(251, 251, 217);
+  width: fit-content !important;
+  padding: 2px 10px 0px 10px;
+  margin-top: 50px;
+  .breadcrumb-item.active {
+    color: $red !important;
+    opacity: 0.7 !important;
+  }
+  .breadcrumb-item {
+    color: #707070;
+    font-family: helveticaM;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    border: none !important;
+  }
+}

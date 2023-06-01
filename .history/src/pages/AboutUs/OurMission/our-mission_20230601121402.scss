@@ -1,0 +1,61 @@
+.statements {
+  margin-top: 40px;
+  margin-bottom: 160px;
+  .img-div {
+    height: 487px;
+    background: #d4e3f2;
+    border-radius: 20px;
+  }
+  ol li {
+    font-size: 16px;
+    color: #707070;
+    line-height: 35px;
+  }
+}
+.vision {
+  margin-bottom: 100px;
+  p {
+    font-size: 16px;
+  }
+}
+.core-values {
+  margin-top: 50px;
+  .values {
+    height: 213px;
+    border-radius: 20px;
+    padding: 50px;
+    p {
+      margin-top: 50px;
+    }
+  }
+  .value1 {
+    background: #fff3af;
+    h5 {
+      color: #ccb70a;
+    }
+  }
+  .value2 {
+    background: #ffc4c4;
+    h5 {
+      color: #f43434;
+    }
+  }
+  .value3 {
+    background: #d9fff2;
+    h5 {
+      color: #20c189;
+    }
+  }
+  .value4 {
+    background: #e4f4fa;
+    h5 {
+      color: #2ebbef;
+    }
+  }
+  .value5 {
+    background: #f9edff;
+    h5 {
+      color: #b130f0;
+    }
+  }
+}
