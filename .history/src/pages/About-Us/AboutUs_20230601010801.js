@@ -14,7 +14,7 @@ function AboutUs() {
           alt="Scholar"
           width="100%"
         />{" "} */}
-        <div className="centered2 col-md-5 offset-md-1">
+        <div className="centered col-md-5 offset-md-1">
           <h1>About Us</h1>
         </div>
       </div>

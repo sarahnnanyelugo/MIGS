@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import "./page-menu.scss";
 function PageMenu() {
   return (
-    <div className="col-md-12 page-menu-div ">
-      <ul className="list-unstyled list-inline offset-md-1">
+    <div className="col-md-12 page-menu-div offset-md-1">
+      <ul className="list-unstyled list-inline">
         <li className="list-inline-item">
           <NavLink
             className="menu-links"

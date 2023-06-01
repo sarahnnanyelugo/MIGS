@@ -14,7 +14,7 @@ function AboutUs() {
           alt="Scholar"
           width="100%"
         />{" "} */}
-        <div className="centered2 col-md-5 offset-md-1">
+        <div className="centered col-md-5 offset-md-1">
           <h1>About Us</h1>
         </div>
       </div>
@@ -38,57 +38,54 @@ function AboutUs() {
         </div>
       </center>
       <div className="col-md-12 birthright-div2">
-        <div className="col-md-12 flitered">
-          {" "}
-          <div className="col-md-10 offset-md-1 flexy">
-            <div className="col-md-8 ">
-              <div className="col-md-11 img-div">
-                {" "}
-                {/* <img
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-8 ">
+            <div className="col-md-11 img-div">
+              {" "}
+              {/* <img
           className="tech-logo"
           src={LandingImg}
           alt="Scholar"
           width="100%"
         />{" "} */}
-              </div>
-            </div>{" "}
-            <div className="col-md-4 ">
-              <div className="col-md-11 img-div">
-                {" "}
-                {/* <img
-          className="tech-logo"
-          src={LandingImg}
-          alt="Scholar"
-          width="100%"
-        />{" "} */}
-              </div>
             </div>
           </div>{" "}
-          <div className="col-md-10 offset-md-1 flexy mt2">
-            {" "}
-            <div className="col-md-4 ">
-              <div className="col-md-11 img-div">
-                {" "}
-                {/* <img
+          <div className="col-md-4 ">
+            <div className="col-md-11 img-div">
+              {" "}
+              {/* <img
           className="tech-logo"
           src={LandingImg}
           alt="Scholar"
           width="100%"
         />{" "} */}
-              </div>
             </div>
-            <div className="col-md-8 ">
-              <div className="col-md-11 img-div">
-                {" "}
-                {/* <img
+          </div>
+        </div>{" "}
+        <div className="col-md-10 offset-md-1 flexy mt2">
+          {" "}
+          <div className="col-md-4 ">
+            <div className="col-md-11 img-div">
+              {" "}
+              {/* <img
           className="tech-logo"
           src={LandingImg}
           alt="Scholar"
           width="100%"
         />{" "} */}
-              </div>
-            </div>{" "}
+            </div>
           </div>
+          <div className="col-md-8 ">
+            <div className="col-md-11 img-div">
+              {" "}
+              {/* <img
+          className="tech-logo"
+          src={LandingImg}
+          alt="Scholar"
+          width="100%"
+        />{" "} */}
+            </div>
+          </div>{" "}
         </div>
       </div>
       <Tour />

@@ -1,0 +1,41 @@
+.centered {
+  top: 80%;
+  left: 20%;
+  h1 {
+    color: #343333;
+  }
+}
+.who-we-are {
+  padding: 150px 0;
+  h1 {
+    color: #707070;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.birthright-div2 {
+  background: url("../../assets/images/pink-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  margin: 100px 0;
+  h1 {
+    margin-bottom: 20px;
+  }
+  span {
+    color: $red;
+    font-size: 60px;
+  }
+  color: #707070;
+  p {
+    font-family: helveticaM;
+    margin-bottom: 100px;
+  }
+  .img-div {
+    height: 487px;
+    border-radius: 10px;
+    background: #fff;
+  }
+}

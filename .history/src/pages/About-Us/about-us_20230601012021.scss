@@ -1,26 +1,8 @@
-.landing-img {
-  position: relative;
-  text-align: left;
-  color: #fff;
-  height: 800px;
-  background-color: grey;
-  @media screen and (max-width: 620px) {
-    text-align: center;
-  }
-}
 .centered2 {
-  position: absolute;
-  top: 80%;
+  top: 80% !important;
   left: 20%;
-
-  transform: translate(-50%, -50%);
   h1 {
-    font-size: 114px !important;
-    color: #343333;
-    @media screen and (max-width: 620px) {
-      font-size: 64px !important;
-      margin-left: 120px;
-    }
+    color: #343333 !important;
   }
 }
 .who-we-are {
