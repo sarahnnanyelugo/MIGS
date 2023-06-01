@@ -5,8 +5,6 @@ import Pic1 from "../../../assets/images/kids_game.png";
 import Pic2 from "../../../assets/images/kids_mat.png";
 import { Link } from "react-router-dom";
 import "./eyfs.scss";
-import Tour from "../../../components/Tour/Tour";
-import Prefooter from "../../../components/Prefooter/Prefooter";
 function EYFS() {
   return (
     <>
@@ -128,8 +126,8 @@ function EYFS() {
                 <li>Outdoor Play</li>
                 <li> Sensory Play</li>
                 <li>Scriptures,</li>
-                <li>Praise & </li>
-                <li> Prayers lots more.</li>
+                <li>Praise & Prayers</li>
+                <li> lots more.</li>
               </ul>
             </div>
           </center>
@@ -221,8 +219,6 @@ function EYFS() {
           </center>
         </div>
       </div>
-      <Tour />
-      <Prefooter />
     </>
   );
 }

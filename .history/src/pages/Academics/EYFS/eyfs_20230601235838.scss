@@ -83,11 +83,11 @@
     }
   }
   .honey {
-    background: #e4f4fa;
-    border: solid 1px #0995c9;
+    background: #edfff9;
+    border: solid 1px #069060;
     li::before {
       content: "•";
-      color: #0995c9;
+      color: #069060;
       font-weight: bold;
       display: inline-block;
       width: 1em;
@@ -96,10 +96,10 @@
   }
   .busy {
     background: #f9edff;
-    border: solid 1px #a81aef;
+    border: solid 1px #069060;
     li::before {
       content: "•";
-      color: #a81aef;
+      color: #069060;
       font-weight: bold;
       display: inline-block;
       width: 1em;

@@ -45,7 +45,7 @@ export const AppModal = () => {
 
             <div className="modal col-md-10">
               <div className="col-md-12 ">
-                <div className="">
+                <div className="img-div">
                   <img className="" src={Pic1} alt="Scholar" width="100%" />
                 </div>
                 <h2>Admission in progress</h2>

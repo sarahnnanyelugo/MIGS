@@ -1,0 +1,60 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.eyfs-div {
+  p {
+    color: #707070;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  .apply-link {
+    color: $red;
+  }
+  .apply-div {
+    background: #fff;
+    padding-top: 1px;
+    height: 86px;
+    p {
+      line-height: 0;
+      margin-bottom: 10px;
+    }
+    margin-bottom: 70px;
+  }
+}
+.eyfs-body {
+  background: #fafafa;
+}
+.curriculum-div {
+  .curriculum {
+    height: 356px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    ul li {
+      text-align: left !important;
+      font-family: helveticaM;
+      font-size: 14px !important;
+      color: #707070;
+    }
+    ul {
+      list-style: none;
+    }
+    h6 {
+      text-align: left !important;
+      font-size: 15px !important;
+      font-family: helveticaM;
+      margin-bottom: 20px;
+    }
+  }
+  .creche {
+    background: #fffad8;
+    border: solid 1px #f5de2e;
+    li ::before {
+      content: "\2022";
+      color: red;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+}

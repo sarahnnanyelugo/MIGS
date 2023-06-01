@@ -5,8 +5,6 @@ import Pic1 from "../../../assets/images/kids_game.png";
 import Pic2 from "../../../assets/images/kids_mat.png";
 import { Link } from "react-router-dom";
 import "./eyfs.scss";
-import Tour from "../../../components/Tour/Tour";
-import Prefooter from "../../../components/Prefooter/Prefooter";
 function EYFS() {
   return (
     <>
@@ -221,8 +219,6 @@ function EYFS() {
           </center>
         </div>
       </div>
-      <Tour />
-      <Prefooter />
     </>
   );
 }

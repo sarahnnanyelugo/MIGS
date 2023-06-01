@@ -2,7 +2,7 @@ import "./_app-modal.scss";
 
 // import ModalImg from "../../assets/read2.png";
 // import SampleLogo from "../../assets/wellspring.png";
-import Pic1 from "../../assets/images/kids_game.png";
+import Pic1 from "../../../assets/images/kids_game.png";
 
 import React, { useEffect, useRef, useState } from "react";
 
@@ -45,9 +45,7 @@ export const AppModal = () => {
 
             <div className="modal col-md-10">
               <div className="col-md-12 ">
-                <div className="">
-                  <img className="" src={Pic1} alt="Scholar" width="100%" />
-                </div>
+                <div className="img-div"></div>
                 <h2>Admission in progress</h2>
                 <p>
                   Admission is currently on into Creche, Pre-school, Primary and

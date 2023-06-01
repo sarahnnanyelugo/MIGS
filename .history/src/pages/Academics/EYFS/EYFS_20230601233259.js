@@ -5,8 +5,6 @@ import Pic1 from "../../../assets/images/kids_game.png";
 import Pic2 from "../../../assets/images/kids_mat.png";
 import { Link } from "react-router-dom";
 import "./eyfs.scss";
-import Tour from "../../../components/Tour/Tour";
-import Prefooter from "../../../components/Prefooter/Prefooter";
 function EYFS() {
   return (
     <>
@@ -123,13 +121,13 @@ function EYFS() {
                 <li>Art Time </li>
                 <li> Music & Dance</li>
               </ul>{" "}
-              <ul className="mt3">
+              <ul>
                 <li>Songs & Rhymes</li>
                 <li>Outdoor Play</li>
                 <li> Sensory Play</li>
                 <li>Scriptures,</li>
-                <li>Praise & </li>
-                <li> Prayers lots more.</li>
+                <li>Praise & Prayers</li>
+                <li> lots more.</li>
               </ul>
             </div>
           </center>
@@ -149,7 +147,7 @@ function EYFS() {
                 <li> Expressive Art &</li>
                 <li> Design</li>
               </ul>
-              <ul className="mt3">
+              <ul>
                 <li>Physical Development .</li>
                 <li>Outdoor Play</li>
                 <li>Scriptures</li>
@@ -179,7 +177,7 @@ function EYFS() {
                 <li>Expressive Art &</li>
                 <li>Design</li>
               </ul>{" "}
-              <ul className="mt3">
+              <ul>
                 <li>Physical Development </li>
                 <li>Outdoor Play</li>
                 <li> Scriptures</li>
@@ -193,36 +191,33 @@ function EYFS() {
           </center>
         </div>
         <div className="col-md-6">
-          <center>
-            {" "}
-            <div className="col-md-11 curriculum busy flexy flexyM">
-              <ul>
-                <h6>Busy Bee(4years+)</h6>
-                <li>Practical Life</li>
-                <li>Numeracy</li>
-                <li> Phonics </li>
-                <li>Communication & </li>
-                <li>Language</li>
-                <li>PSED</li>
-                <li>Expressive Art & </li>
-                <li> Design</li>
-              </ul>
-              <ul className="mt3">
-                <li>Physical Development </li>
-                <li>Outdoor Play</li>
-                <li> Scriptures</li>
-                <li>Praise & Prayers</li>
-                <li>Music & Dance</li>
-                <li>Story Time</li>
-                <li>Songs & Rhymes</li>
-                <li>Outdoor Play and lots more..</li>
-              </ul>
-            </div>
-          </center>
+          {/* <center> */}{" "}
+          <div className="col-md-11 curriculum busy flexy flexyM">
+            <ul>
+              <h6>Busy Bee(4years+)</h6>
+              <li>Practical Life</li>
+              <li>Numeracy</li>
+              <li> Phonics </li>
+              <li>Communication & </li>
+              <li>Language</li>
+              <li>PSED</li>
+              <li>Expressive Art & </li>
+              <li> Design</li>
+            </ul>
+            <ul>
+              <li>Physical Development </li>
+              <li>Outdoor Play</li>
+              <li> Scriptures</li>
+              <li>Praise & Prayers</li>
+              <li>Music & Dance</li>
+              <li>Story Time</li>
+              <li>Songs & Rhymes</li>
+              <li>Outdoor Play and lots more..</li>
+            </ul>
+          </div>
+          {/* </center> */}
         </div>
       </div>
-      <Tour />
-      <Prefooter />
     </>
   );
 }
