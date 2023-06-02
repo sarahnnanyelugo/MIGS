@@ -43,11 +43,7 @@ function PageMenu(props) {
         </li>{" "}
         {props.page5 ? (
           <li className="list-inline-item">
-            <NavLink
-              to={`${props.Url5}`}
-              activeClassName="active"
-              className="menu-links"
-            >
+            <NavLink to={`${props.Url5}`} activeClassName="active" menu-links>
               {props.page5}
             </NavLink>
           </li>
