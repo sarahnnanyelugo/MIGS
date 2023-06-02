@@ -13,6 +13,9 @@ import Achievements from "./pages/AboutUs/Achievements/Achievements";
 import ContactUs from "./pages/AboutUs/ContactUs/ContactUs";
 import Admission from "./pages/Admission/Admission";
 import EYFS from "./pages/Academics/EYFS/EYFS";
+import PrimarySchool from "./pages/Academics/PrimarySchool/PrimarySchool";
+import SpecialEducation from "./pages/Academics/SpecialEducation/SpecialEducation";
+import JuniorSecondary from "./pages/Academics/JuniorSecondary/JuniorSecondary";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="admission" element={<Admission />} />
         <Route path="eyfs" element={<EYFS />} />
+        <Route path="primary" element={<PrimarySchool />} />
+        <Route path="special-edu" element={<SpecialEducation />} />
+        <Route path="junior-sec" element={<JuniorSecondary />} />
       </Routes>
       <Footer />
     </>

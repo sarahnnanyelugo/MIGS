@@ -30,9 +30,9 @@ function EYFS() {
         />
         <Breadcrum
           page1="About"
-          currentPage="Contact Us"
+          currentPage="Early Years"
           pageUrl={"/events"}
-          nav="About us"
+          nav="Academics"
         />
         <br />
         <br />
