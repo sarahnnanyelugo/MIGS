@@ -56,12 +56,12 @@ function JuniorSecondary() {
         </center>
         <div className="col-md-10 flexy  offset-md-1">
           <div className="col-md-6">
-            <div className="col-md-11">
+            <div className="col-md-11 img-div">
               <img className="" src={Science} alt="Scholar" width="100%" />{" "}
             </div>
           </div>
           <div className="col-md-6">
-            <div className="col-md-11">
+            <div className="col-md-11 img-div">
               <img className="" src={Art} alt="Scholar" width="100%" />{" "}
             </div>
           </div>

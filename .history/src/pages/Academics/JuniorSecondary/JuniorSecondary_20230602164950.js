@@ -1,7 +1,5 @@
 import React from "react";
-import LandingImg from "../../../assets/images/suited.png";
-import Art from "../../../assets/images/art.png";
-import Science from "../../../assets/images/lab.png";
+import LandingImg from "../../../assets/images/suit.png";
 import { Breadcrum } from "../../../components/BreadCrumb/BreadCrumb";
 import PageMenu from "../../../components/PageMenu/PageMenu";
 import Prefooter from "../../../components/Prefooter/Prefooter";
@@ -40,7 +38,7 @@ function JuniorSecondary() {
         <br />{" "}
         <center>
           <div className="col-md-8">
-            <h1>Junior Secondary</h1>
+            <h1>Special Education</h1>
             <p>
               Technology and science are evolving, we are moving from the era
               where we understand that genetics and the environment alone are
@@ -56,14 +54,10 @@ function JuniorSecondary() {
         </center>
         <div className="col-md-10 flexy  offset-md-1">
           <div className="col-md-6">
-            <div className="col-md-11">
-              <img className="" src={Science} alt="Scholar" width="100%" />{" "}
-            </div>
+            <div className="col-md-11 img-div"></div>
           </div>
           <div className="col-md-6">
-            <div className="col-md-11">
-              <img className="" src={Art} alt="Scholar" width="100%" />{" "}
-            </div>
+            <div className="col-md-11 img-div"></div>
           </div>
         </div>
         <center>

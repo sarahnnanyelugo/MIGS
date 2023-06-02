@@ -30,7 +30,7 @@ function PrimarySchool() {
       />
       <Breadcrum
         page1="About"
-        currentPage="Primary School"
+        currentPage="Junior Secondary"
         pageUrl={"/events"}
         nav="Academics"
       />
