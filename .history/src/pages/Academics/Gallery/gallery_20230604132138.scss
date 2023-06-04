@@ -1,0 +1,9 @@
+.gallery-mgs {
+  margin-top: 20px;
+  margin-left: 10px;
+  @media screen and (max-width: 620px) {
+    margin: 0;
+    display: block !important;
+    width: 100% !important;
+  }
+}

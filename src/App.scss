@@ -44,4 +44,7 @@ ol li {
 .grey-heading {
   color: #707070;
   font-size: 60px !important;
+  @media screen and (max-width: 620px) {
+    font-size: 40px !important;
+  }
 }

@@ -16,10 +16,12 @@
   transform: translate(-50%, -50%);
   h1 {
     font-size: 114px !important;
-    color: #343333;
+    color: #fff;
     @media screen and (max-width: 620px) {
       font-size: 64px !important;
       margin-left: 120px;
+      top: 0% !important;
+      display: none;
     }
   }
 }

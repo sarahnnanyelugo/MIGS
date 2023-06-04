@@ -16,6 +16,7 @@ import EYFS from "./pages/Academics/EYFS/EYFS";
 import PrimarySchool from "./pages/Academics/PrimarySchool/PrimarySchool";
 import SpecialEducation from "./pages/Academics/SpecialEducation/SpecialEducation";
 import JuniorSecondary from "./pages/Academics/JuniorSecondary/JuniorSecondary";
+import Gallery from "./pages/Academics/Gallery/Gallery";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="primary" element={<PrimarySchool />} />
         <Route path="special-edu" element={<SpecialEducation />} />
         <Route path="junior-sec" element={<JuniorSecondary />} />
+        <Route path="gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </>

@@ -39,7 +39,9 @@ function NavBar() {
             <NavLink className="tech-links cool-link">E-shop</NavLink>
           </li>
           <li className="list-inline-item">
-            <NavLink className="tech-links cool-link">Gallery</NavLink>
+            <NavLink className="tech-links cool-link" to={"/gallery"}>
+              Gallery
+            </NavLink>
           </li>
           <li className="list-inline-item">
             <button className="nav-btn">e-portal</button>
