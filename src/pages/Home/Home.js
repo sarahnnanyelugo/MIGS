@@ -8,17 +8,13 @@ import { Link } from "react-router-dom";
 import Events from "./Events";
 import Prefooter from "../../components/Prefooter/Prefooter";
 import Tour from "../../components/Tour/Tour";
+import LandingImages from "./LandingImages/LandingImages";
 
 function Home() {
   return (
     <>
       <div className="col-md-12 landing-img">
-        {/* <img
-          className="tech-logo"
-          src={LandingImg}
-          alt="Scholar"
-          width="100%"
-        />{" "} */}
+        <LandingImages />
         <div className="centered col-md-5 offset-md-1">
           <h1>Excellence is our birthright</h1>
         </div>
