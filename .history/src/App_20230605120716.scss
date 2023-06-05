@@ -1,0 +1,62 @@
+@font-face {
+  font-family: maker;
+  src: url(./assets/fonts/marker-felt/Marker-Felt.ttf);
+}
+@font-face {
+  font-family: helveticaB;
+  src: url(./assets/fonts/helvetica/HelveticaNeueBold.ttf);
+}
+@font-face {
+  font-family: helveticaM;
+  src: url(./assets/fonts/helvetica/HelveticaNeueMedium.ttf);
+}
+@font-face {
+  font-family: helveticaI;
+  src: url(./assets/fonts/helvetica/HelveticaNeueItalic.ttf);
+}
+@font-face {
+  font-family: helveticaL;
+  src: url(./assets/fonts/helvetica/HelveticaNeue-Light.otf);
+}
+@font-face {
+  font-family: helveticaR;
+  // src: url(./assets/fonts/helvetica/HelveticaNeueRegular.ttf);
+  src: url(./assets/fonts/helvetica/HelveticaNeue-Extended.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: maker;
+}
+p {
+  font-family: helveticaL;
+  color: #707070;
+}
+ol li {
+  font-family: helveticaM;
+  color: #707070;
+}
+.app-link {
+  color: #707070;
+  font-family: helveticaM;
+  text-decoration: none !important;
+}
+
+.grey-heading {
+  color: #707070;
+  font-size: 60px !important;
+  @media screen and (max-width: 620px) {
+    font-size: 40px !important;
+  }
+}
+.grey-heading2 {
+  color: #414040;
+  font-size: 60px !important;
+  @media screen and (max-width: 620px) {
+    font-size: 40px !important;
+  }
+}

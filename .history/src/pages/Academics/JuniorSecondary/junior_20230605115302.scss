@@ -1,0 +1,25 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+.special-edu {
+  margin-bottom: 70px;
+  background: #fafafa;
+  .img-div {
+    height: 365px;
+    background: #d4e3f2;
+    border-radius: 20px;
+  }
+}
+.apply-link {
+  color: $red;
+}
+.apply-div {
+  background: #fff;
+  padding-top: 30px;
+  height: 86px;
+  margin-top: 40px;
+  p {
+    line-height: 0;
+    margin-bottom: 10px;
+  }
+  margin-bottom: 70px;
+}
