@@ -362,7 +362,12 @@ function Home() {
         <div className="col-md-12  flexy">
           <div className="col-md-1 circle2">
             {" "}
-            <img className="" src={Circle1} alt="Scholar" width="180%" />
+            <img
+              className="tech-logo"
+              src={Circle1}
+              alt="Scholar"
+              width="150%"
+            />
           </div>
           <div className="col-md-7 ">
             <div className="col-md-12 flexy">
@@ -427,7 +432,12 @@ function Home() {
           </div>
           <div className="col-md-2 circle1">
             {" "}
-            <img src={Circle2} alt="Scholar" width="80%" />
+            <img
+              className="col-md-12"
+              src={Circle2}
+              alt="Scholar"
+              width="50%"
+            />
           </div>
         </div>
 

@@ -362,7 +362,7 @@ function Home() {
         <div className="col-md-12  flexy">
           <div className="col-md-1 circle2">
             {" "}
-            <img className="" src={Circle1} alt="Scholar" width="180%" />
+            <img className="" src={Circle1} alt="Scholar" width="200%" />
           </div>
           <div className="col-md-7 ">
             <div className="col-md-12 flexy">

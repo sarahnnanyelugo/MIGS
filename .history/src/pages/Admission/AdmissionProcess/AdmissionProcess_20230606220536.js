@@ -78,7 +78,7 @@ const AdmissionProcess = () => {
                 </li>
                 <li>Year 12: Admission is not opened for this class</li>
               </ol>{" "}
-              <h6>Requirements for admission into Senior Secondary</h6>
+              <h6>Requirements for admission into Junior Secondary</h6>
               <small>(Admission Portal is opened all year round)</small>
               <ol className="list-unstyled">
                 <li>
