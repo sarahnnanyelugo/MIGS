@@ -101,9 +101,9 @@ function IEC() {
         </center>
         <div className="offset-md-1">
           <p>Contact us on</p>
-          <ul className="list-unstyled iec-list">
+          <ul className="list-unstyled">
             <li>
-              <img className="" src={IconFive} alt="Scholar" width="" />{" "}
+              <img className="" src={IconFive} alt="Scholar" width="2%" />{" "}
               <a href="#" target="_blank">
                 inspire@misph.com
               </a>
@@ -114,7 +114,7 @@ function IEC() {
             </li>{" "}
             <br />
             <li>
-              <img className="" src={IconSix} alt="Scholar" width="" />{" "}
+              <img className="" src={IconSix} alt="Scholar" width="2%" />{" "}
               <a href="#" target="_blank">
                 +2347019408633
               </a>
@@ -128,7 +128,7 @@ function IEC() {
             </li>{" "}
             <br />
             <li>
-              <img className="" src={IconSix} alt="Scholar" width="" />{" "}
+              <img className="" src={IconSix} alt="Scholar" width="2%" />{" "}
               <a href="#" target="_blank">
                 https://www.instagram.com/inspire.edng/
               </a>

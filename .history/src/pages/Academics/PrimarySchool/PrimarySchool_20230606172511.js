@@ -23,10 +23,10 @@ function PrimarySchool() {
         url1={"/eyfs"}
         page2="Primary School"
         url2={"/primary"}
-        page3="Junior Seconday"
-        url3={"/junior-sec"}
-        // page4="Junior Seconday"
-        // url4={"/junior-sec"}
+        page3="Special Education"
+        url3={"/special-edu"}
+        page4="Junior Seconday"
+        url4={"/junior-sec"}
       />
       <Breadcrum
         page1="About"
@@ -86,7 +86,7 @@ function PrimarySchool() {
           <img className="" src={Speaker} alt="Scholar" width="100%" />{" "}
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy mt5 other-imgs">
+      <div className="col-md-10 offset-md-1 flexy mt5">
         <div className="col-md-4">
           <div className="col-md-11">
             {" "}

@@ -9,7 +9,7 @@
     color: #343333;
     border-radius: 35px;
     @media screen and (max-width: 620px) {
-      padding: 10px;
+      padding: 0;
     }
     &:hover {
       background: #c90e0e;
@@ -19,7 +19,7 @@
     }
   }
   ul li {
-    margin: 20px 0;
+    // margin: 20px 0;
   }
   .active {
     border: solid 1px #c90e0e;

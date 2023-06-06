@@ -23,10 +23,10 @@ function PrimarySchool() {
         url1={"/eyfs"}
         page2="Primary School"
         url2={"/primary"}
-        page3="Junior Seconday"
-        url3={"/junior-sec"}
-        // page4="Junior Seconday"
-        // url4={"/junior-sec"}
+        // page3="Special Education"
+        // url3={"/special-edu"}
+        page4="Junior Seconday"
+        url4={"/junior-sec"}
       />
       <Breadcrum
         page1="About"

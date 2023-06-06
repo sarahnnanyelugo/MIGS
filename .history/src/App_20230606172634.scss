@@ -69,9 +69,7 @@ strong {
   }
 }
 .other-imgs {
-  img {
-    @media screen and (max-width: 620px) {
-      margin-top: 15px;
-    }
+  @media screen and (max-width: 620px) {
+    margin-top: 10px;
   }
 }
