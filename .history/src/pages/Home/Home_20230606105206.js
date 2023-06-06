@@ -377,8 +377,8 @@ function Home() {
               </div>
             </div>
             <div className="col-md-12 flexy mt3">
-              <div className="col-md-7 ">
-                <div className="col-md-11 ">
+              <div className="col-md-7">
+                <div className="col-md-11img-div2">
                   {" "}
                   <img
                     className="tech-logo"
@@ -418,10 +418,7 @@ function Home() {
         <center>
           <div className="col-md-2">
             {" "}
-            <Link to={"/gallery"}>
-              {" "}
-              <button className="app-btn">View all pictures</button>
-            </Link>
+            <button className="app-btn">View all pictures</button>
           </div>
         </center>
       </div>

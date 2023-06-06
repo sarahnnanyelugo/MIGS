@@ -377,8 +377,8 @@ function Home() {
               </div>
             </div>
             <div className="col-md-12 flexy mt3">
-              <div className="col-md-7 ">
-                <div className="col-md-11 ">
+              <div className="col-md-7">
+                <div className="img-div2 col-md-11">
                   {" "}
                   <img
                     className="tech-logo"
@@ -390,7 +390,7 @@ function Home() {
                 </div>
               </div>{" "}
               <div className="col-md-5">
-                <div className=" col-md-11">
+                <div className="img-div2 col-md-11">
                   {" "}
                   <img
                     className="tech-logo"
@@ -403,7 +403,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 img-div">
             {" "}
             <img
               className="tech-logo"
@@ -418,10 +418,7 @@ function Home() {
         <center>
           <div className="col-md-2">
             {" "}
-            <Link to={"/gallery"}>
-              {" "}
-              <button className="app-btn">View all pictures</button>
-            </Link>
+            <button className="app-btn">View all pictures</button>
           </div>
         </center>
       </div>

@@ -21,15 +21,11 @@ import Prefooter from "../../components/Prefooter/Prefooter";
 import Tour from "../../components/Tour/Tour";
 import LandingImages from "./LandingImages/LandingImages";
 import Play from "../../assets/images/play.png";
-import Art2 from "../../assets/images/art4.png";
-import Plate from "../../assets/images/plate.png";
-import Dancer from "../../assets/images/dancer2.png";
-import Native from "../../assets/images/native3.png";
 
 function Home() {
   return (
     <>
-      <div className="col-md-12">
+      <div className="col-md-12 landing-img">
         <LandingImages />
       </div>
       <center>
@@ -368,7 +364,7 @@ function Home() {
                   {" "}
                   <img
                     className="tech-logo"
-                    src={Art2}
+                    src={Junior}
                     alt="Scholar"
                     width="100%"
                     height="100%"
@@ -377,51 +373,21 @@ function Home() {
               </div>
             </div>
             <div className="col-md-12 flexy mt3">
-              <div className="col-md-7 ">
-                <div className="col-md-11 ">
-                  {" "}
-                  <img
-                    className="tech-logo"
-                    src={Plate}
-                    alt="Scholar"
-                    width="100%"
-                    height="100%"
-                  />{" "}
-                </div>
+              <div className="col-md-7">
+                <div className="img-div2 col-md-11"></div>
               </div>{" "}
               <div className="col-md-5">
-                <div className=" col-md-11">
-                  {" "}
-                  <img
-                    className="tech-logo"
-                    src={Dancer}
-                    alt="Scholar"
-                    width="100%"
-                    height="100%"
-                  />{" "}
-                </div>
+                <div className="img-div2 col-md-11"></div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
-            {" "}
-            <img
-              className="tech-logo"
-              src={Native}
-              alt="Scholar"
-              width="100%"
-              height="100%"
-            />{" "}
-          </div>
+          <div className="col-md-4 img-div"></div>
         </div>
 
         <center>
           <div className="col-md-2">
             {" "}
-            <Link to={"/gallery"}>
-              {" "}
-              <button className="app-btn">View all pictures</button>
-            </Link>
+            <button className="app-btn">View all pictures</button>
           </div>
         </center>
       </div>

@@ -26,8 +26,8 @@ function LandingImages() {
               <img className="" src={Slide2} alt="Scholar" width="100%" />
               <div className="centered3 col-md-12 ">
                 <h1>
-                  The citadel of <br />
-                  Excellence
+                  Excellence is <br />
+                  our birthright
                 </h1>
               </div>
             </div>

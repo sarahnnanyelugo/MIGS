@@ -418,10 +418,7 @@ function Home() {
         <center>
           <div className="col-md-2">
             {" "}
-            <Link to={"/gallery"}>
-              {" "}
-              <button className="app-btn">View all pictures</button>
-            </Link>
+            <button className="app-btn">View all pictures</button>
           </div>
         </center>
       </div>

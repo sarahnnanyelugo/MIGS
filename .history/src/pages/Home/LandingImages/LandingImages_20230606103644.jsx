@@ -9,7 +9,7 @@ function LandingImages() {
       <div className="lib-dashboard-display-carousel col-md-12">
         <Carousel fade>
           <Carousel.Item>
-            <div className="col-md-12 flexy  landing-img">
+            <div className="col-md-12 flexy">
               {" "}
               <img className="" src={Slide1} alt="Scholar" width="100%" />
               <div className="centered3 col-md-12 ">
@@ -22,14 +22,8 @@ function LandingImages() {
           </Carousel.Item>
 
           <Carousel.Item>
-            <div className="col-md-12  landing-img">
+            <div className="col-md-12 ">
               <img className="" src={Slide2} alt="Scholar" width="100%" />
-              <div className="centered3 col-md-12 ">
-                <h1>
-                  The citadel of <br />
-                  Excellence
-                </h1>
-              </div>
             </div>
           </Carousel.Item>
         </Carousel>
