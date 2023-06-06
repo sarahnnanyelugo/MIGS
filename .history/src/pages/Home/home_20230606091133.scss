@@ -29,13 +29,11 @@
   position: absolute;
   top: 0%;
   left: 0%;
-  background: rgba(0, 0, 0, 0.5);
-  height: 910px;
+  background: red;
+  height: 100%;
   width: 100%;
-  // transform: translate(0%, -20%);
+  transform: translate(0%, -20%);
   h1 {
-    margin-top: 30%;
-    margin-left: 10%;
     font-size: 114px !important;
     color: #fff;
     @media screen and (max-width: 620px) {
@@ -76,55 +74,32 @@
   text-align: center;
   margin-bottom: 50px;
   border-radius: 10px;
-  // height: 358px;
+  height: 358px;
 }
 .bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
-
 .early-years {
-  img {
-    &:hover {
-      border: solid 4px #ff5252;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+  background: #ff5252;
   color: #fff;
 }
 .primary {
   background: #f2e15f;
-  color: #fff;
-  img {
-    &:hover {
-      border: solid 4px #f2e15f;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+  color: #000;
 }
-
-.junior {
+.special {
+  background: #838383;
   color: #fff;
-  img {
-    &:hover {
-      border: solid 4px #2ebbef;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+}
+.junior {
+  background: #2ebbef;
+  color: #fff;
 }
 .senior {
-  color: #fff;
-  img {
-    &:hover {
-      border: solid 4px #30eaa9;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+  background: #30eaa9;
+  color: #000;
 }
 .birthright-div {
   background: url("../../assets/images/pink-bg.png");
@@ -253,17 +228,4 @@
     border-radius: 20px;
     height: 550px;
   }
-}
-.bottom-left2 {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-  color: #fff;
-
-  h3 {
-    font-family: helveticaR;
-  }
-}
-.wins {
-  position: relative;
 }

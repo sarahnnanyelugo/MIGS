@@ -83,7 +83,6 @@
   bottom: 8px;
   left: 16px;
 }
-
 .early-years {
   img {
     &:hover {
@@ -99,32 +98,23 @@
   color: #fff;
   img {
     &:hover {
-      border: solid 4px #f2e15f;
+      border: solid 4px #ff5252;
       border-radius: 30px;
       transition: 0.5s ease;
     }
   }
 }
-
-.junior {
+.special {
+  background: #838383;
   color: #fff;
-  img {
-    &:hover {
-      border: solid 4px #2ebbef;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+}
+.junior {
+  background: #2ebbef;
+  color: #fff;
 }
 .senior {
-  color: #fff;
-  img {
-    &:hover {
-      border: solid 4px #30eaa9;
-      border-radius: 30px;
-      transition: 0.5s ease;
-    }
-  }
+  background: #30eaa9;
+  color: #000;
 }
 .birthright-div {
   background: url("../../assets/images/pink-bg.png");
@@ -253,17 +243,4 @@
     border-radius: 20px;
     height: 550px;
   }
-}
-.bottom-left2 {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-  color: #fff;
-
-  h3 {
-    font-family: helveticaR;
-  }
-}
-.wins {
-  position: relative;
 }

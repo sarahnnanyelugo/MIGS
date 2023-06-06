@@ -256,13 +256,10 @@
 }
 .bottom-left2 {
   position: absolute;
-  bottom: 10px;
-  left: 20px;
+  bottom: 0px;
+  left: 0px;
   color: #fff;
-
-  h3 {
-    font-family: helveticaR;
-  }
+  font-family: helveticaR !important;
 }
 .wins {
   position: relative;

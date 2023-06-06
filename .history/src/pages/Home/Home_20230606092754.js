@@ -5,13 +5,7 @@ import Helmet from "../../assets/images/helmet.png";
 import Junior from "../../assets/images/junior.png";
 import Senior from "../../assets/images/senior.png";
 import Primary from "../../assets/images/primary.png";
-import Academics from "../../assets/images/academics.png";
-import Artistic from "../../assets/images/artistics.png";
-import Career from "../../assets/images/career.png";
-import Learning from "../../assets/images/learning.png";
 import Grad from "../../assets/images/grad.png";
-import Event1 from "../../assets/images/events1.png";
-import Event2 from "../../assets/images/event2.png";
 import "./home.scss";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
@@ -84,23 +78,9 @@ function Home() {
           </div>{" "}
         </div>
       </div>
-      <div className="col-md-8 offset-md-2 flexy mt1">
+      <div className="col-md-8 offset-md-2 flexy mt8">
         <div className="col-md-6">
           <div className="col-md-11 sections-container junior ">
-            <img
-              className="tech-logo"
-              src={Junior}
-              alt="Scholar"
-              width="100%"
-            />{" "}
-            <div class="bottom-left col-md-1">
-              {" "}
-              <h2>Junior School</h2>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="col-md-11 sections-container senior ">
             <img
               className="tech-logo"
               src={Senior}
@@ -109,7 +89,21 @@ function Home() {
             />{" "}
             <div class="bottom-left col-md-1">
               {" "}
-              <h2>Senior School</h2>
+              <h2>Special Education</h2>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="col-md-11 sections-container special ">
+            <img
+              className="tech-logo"
+              src={Junior}
+              alt="Scholar"
+              width="100%"
+            />{" "}
+            <div class="bottom-left col-md-1">
+              {" "}
+              <h2>Special Education</h2>
             </div>
           </div>
         </div>
@@ -130,67 +124,51 @@ function Home() {
           </div>
         </center>
         <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-8 wins">
+          <div className="col-md-8 ">
             <div className="col-md-11 img-div">
               {" "}
               <img
                 className="tech-logo"
-                src={Academics}
-                alt="Scholar"
-                width="100%"
-              />
-            </div>
-            <div class="bottom-left2 col-md-6">
-              {" "}
-              <h3>Academic Excellence</h3>
-            </div>
-          </div>{" "}
-          <div className="col-md-4 wins">
-            <div className="col-md-11 img-div">
-              {" "}
-              <img
-                className="tech-logo"
-                src={Artistic}
+                src={LandingImg}
                 alt="Scholar"
                 width="100%"
               />{" "}
             </div>
-            <div class="bottom-left2 col-md-6">
+          </div>{" "}
+          <div className="col-md-4 ">
+            <div className="col-md-11 img-div">
               {" "}
-              <h3>Artistic Minds</h3>
+              {/* <img
+          className="tech-logo"
+          src={LandingImg}
+          alt="Scholar"
+          width="100%"
+        />{" "} */}
             </div>
           </div>
         </div>{" "}
-        <div className="col-md-10 offset-md-1 flexy mt2 wins">
+        <div className="col-md-10 offset-md-1 flexy mt2">
           {" "}
           <div className="col-md-4 ">
             <div className="col-md-11 img-div">
               {" "}
-              <img
-                className="tech-logo"
-                src={Career}
-                alt="Scholar"
-                width="100%"
-              />{" "}
-            </div>
-            <div class="bottom-left2 col-md-6">
-              {" "}
-              <h3>Career exploration</h3>
+              {/* <img
+          className="tech-logo"
+          src={LandingImg}
+          alt="Scholar"
+          width="100%"
+        />{" "} */}
             </div>
           </div>
-          <div className="col-md-8 wins">
+          <div className="col-md-8 ">
             <div className="col-md-11 img-div">
               {" "}
-              <img
-                className="tech-logo"
-                src={Learning}
-                alt="Scholar"
-                width="100%"
-              />{" "}
-            </div>
-            <div class="bottom-left2 col-md-6">
-              {" "}
-              <h3>Continuous Learning</h3>
+              {/* <img
+          className="tech-logo"
+          src={LandingImg}
+          alt="Scholar"
+          width="100%"
+        />{" "} */}
             </div>
           </div>{" "}
         </div>
@@ -263,15 +241,7 @@ function Home() {
         </center>
         <div className="flexy mt3">
           <div className="col-md-6 flexy">
-            <div className="col-md-6 img-div2">
-              {" "}
-              <img
-                className="tech-logo"
-                src={Event1}
-                alt="Scholar"
-                width="100%"
-              />{" "}
-            </div>
+            <div className="col-md-6 img-div2"></div>
             <div className="col-md-6 news-details">
               <button className="holidays">Holidays</button>
               <h4>Holiday Information</h4>
@@ -285,15 +255,7 @@ function Home() {
             </div>
           </div>
           <div className="col-md-6 flexy mt23">
-            <div className="col-md-6 img-div2">
-              {" "}
-              <img
-                className="tech-logo"
-                src={Event2}
-                alt="Scholar"
-                width="100%"
-              />{" "}
-            </div>
+            <div className="col-md-6 img-div2"></div>
             <div className="col-md-6 news-details">
               <button className="events">Holidays</button>
               <h4>Holiday Information</h4>
