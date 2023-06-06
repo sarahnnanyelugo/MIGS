@@ -293,8 +293,8 @@ function Home() {
               <small>9:57am</small>
             </div>
           </div>
-          <div className="col-md-6 flexy mt6 flexyM">
-            <div className="col-md-6">
+          <div className="col-md-6 flexy mt23">
+            <div className="col-md-6 img-div2">
               {" "}
               <img
                 className="tech-logo"

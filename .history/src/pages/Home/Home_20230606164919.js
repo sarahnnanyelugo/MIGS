@@ -272,7 +272,7 @@ function Home() {
       <div className="col-md-10 offset-md-1 news-div mtt">
         <div className="flexy mt3">
           <div className="col-md-6 flexy flexyM">
-            <div className="col-md-6">
+            <div className="col-md-6 img-div2">
               {" "}
               <img
                 className="tech-logo"
@@ -293,8 +293,8 @@ function Home() {
               <small>9:57am</small>
             </div>
           </div>
-          <div className="col-md-6 flexy mt6 flexyM">
-            <div className="col-md-6">
+          <div className="col-md-6 flexy mt23">
+            <div className="col-md-6 img-div2">
               {" "}
               <img
                 className="tech-logo"

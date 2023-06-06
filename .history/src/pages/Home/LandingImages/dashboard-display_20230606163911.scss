@@ -56,7 +56,6 @@
       margin-left: -750% !important;
     }
   }
-
   .carousel-control-prev-icon {
     background-image: url("../../../assets/images/right.png");
     margin-top: 450px !important;
@@ -97,7 +96,7 @@
     margin-left: -57% !important;
     top: 77% !important;
     @media screen and (max-width: 620px) {
-      display: none;
+      display: none !important;
     }
   }
 }

@@ -53,10 +53,8 @@
     margin-left: -850% !important;
     @media screen and (max-width: 620px) {
       margin-top: 100px !important;
-      margin-left: -750% !important;
     }
   }
-
   .carousel-control-prev-icon {
     background-image: url("../../../assets/images/right.png");
     margin-top: 450px !important;
@@ -64,9 +62,6 @@
     height: 46px !important;
     width: 46px !important;
     margin-left: -100% !important;
-    @media screen and (max-width: 620px) {
-      margin-top: 100px !important;
-    }
   }
 
   .carousel-control-prev {
@@ -96,8 +91,5 @@
   .carousel-indicators {
     margin-left: -57% !important;
     top: 77% !important;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
 }

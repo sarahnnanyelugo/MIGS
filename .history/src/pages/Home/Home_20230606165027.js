@@ -293,7 +293,7 @@ function Home() {
               <small>9:57am</small>
             </div>
           </div>
-          <div className="col-md-6 flexy mt6 flexyM">
+          <div className="col-md-6 flexy mt2 flexyM">
             <div className="col-md-6">
               {" "}
               <img

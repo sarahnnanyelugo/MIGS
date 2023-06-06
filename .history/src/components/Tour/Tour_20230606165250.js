@@ -18,9 +18,9 @@ function Tour() {
         </div>
       </div>
       <div className="col-md-8 offset-md-2 vidieo-div">
-        <div className="col-md-10 video-inner offset-md-1 col-12">
+        <div className="col-md-10 video-inner  col-12">
           {" "}
-          <img className="col-md-12" src={TourImg} alt="Scholar" width="" />
+          <img className="tech-logo" src={TourImg} alt="Scholar" width="85%" />
         </div>
       </div>
     </div>

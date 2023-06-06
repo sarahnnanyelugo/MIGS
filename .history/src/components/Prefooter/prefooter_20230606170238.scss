@@ -1,6 +1,6 @@
 .prefooter-container {
   @media screen and (max-width: 620px) {
-    height: 150px;
+    height: 500px;
   }
 
   position: relative;
@@ -18,10 +18,6 @@
   }
   .prefooter-btn {
     margin: 50px 50px !important;
-    @media screen and (max-width: 620px) {
-      margin: 20px 10px !important;
-      font-size: 12px;
-    }
   }
 }
 .prefooter-innner {

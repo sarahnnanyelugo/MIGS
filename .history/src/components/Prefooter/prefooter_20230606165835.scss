@@ -1,7 +1,6 @@
 .prefooter-container {
-  @media screen and (max-width: 620px) {
-    height: 150px;
-  }
+  // background-color: #414040d5;
+  // padding: 70px 0;
 
   position: relative;
   background-size: cover;
@@ -18,17 +17,13 @@
   }
   .prefooter-btn {
     margin: 50px 50px !important;
-    @media screen and (max-width: 620px) {
-      margin: 20px 10px !important;
-      font-size: 12px;
-    }
   }
 }
 .prefooter-innner {
-  height: 100% !important;
+  height: 100%;
   position: absolute;
   background: #414040d5;
-  width: 100% !important;
+
   top: 0%;
   left: 0%;
   h1 {
@@ -38,7 +33,6 @@
     @media screen and (max-width: 620px) {
       font-size: 30px;
       margin-top: 10px;
-      margin-left: 10%;
     }
   }
 }

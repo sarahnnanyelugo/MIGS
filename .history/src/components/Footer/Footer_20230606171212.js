@@ -19,7 +19,7 @@ function Footer() {
             </li>{" "}
             <li>
               {" "}
-              <img className="" src={Tel} alt="Scholar" width="10%" />
+              <img className="dn" src={Tel} alt="Scholar" width="10%" />
               (+234) 813 850 6540
             </li>{" "}
             <br />

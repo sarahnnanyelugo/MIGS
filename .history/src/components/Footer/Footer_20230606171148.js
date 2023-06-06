@@ -19,7 +19,7 @@ function Footer() {
             </li>{" "}
             <li>
               {" "}
-              <img className="" src={Tel} alt="Scholar" width="10%" />
+              <img className="dn" src={Tel} alt="Scholar" width="10%" />
               (+234) 813 850 6540
             </li>{" "}
             <br />
@@ -35,7 +35,7 @@ function Footer() {
         <div className="col-md-3 offset-md-2 logo-div">
           <center>
             {" "}
-            <img className="f-logo" src={Logo} alt="Scholar" width="100%" />
+            <img className="" src={Logo} alt="Scholar" width="100%" />
             <p className="col-md-9">
               64 King Perekule Street, G.R.A Phase 2, Port Harcourt, Rivers
               State, Nigeria. P.O.BOX 11565
