@@ -69,35 +69,44 @@ function NavBar() {
                   <ul>
                     <li>
                       {" "}
-                      <NavLink className=" cool-link" to={"/about-us"}>
+                      <NavLink
+                        className="tech-links cool-link"
+                        to={"/about-us"}
+                      >
                         About Us
                       </NavLink>
                     </li>
                     <li>
                       {" "}
-                      <NavLink className=" cool-link" to={"/admission"}>
+                      <NavLink
+                        className="tech-links cool-link"
+                        to={"/admission"}
+                      >
                         Admission
                       </NavLink>
                     </li>
                     <li>
                       {" "}
-                      <NavLink className=" cool-link" to={"/academics"}>
+                      <NavLink
+                        className="tech-links cool-link"
+                        to={"/academics"}
+                      >
                         Academics
                       </NavLink>
                     </li>
                     <li>
                       {" "}
-                      <NavLink className=" cool-link" to={"/iec"}>
+                      <NavLink className="tech-links cool-link" to={"/iec"}>
                         IEC
                       </NavLink>
                     </li>
                     <li>
                       {" "}
-                      <NavLink className="cool-link">E-shop</NavLink>
+                      <NavLink className="tech-links cool-link">E-shop</NavLink>
                     </li>
                     <li>
                       {" "}
-                      <NavLink className=" cool-link" to={"/gallery"}>
+                      <NavLink className="tech-links cool-link" to={"/gallery"}>
                         Gallery
                       </NavLink>
                     </li>

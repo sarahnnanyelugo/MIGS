@@ -67,40 +67,12 @@ function NavBar() {
                 </div>
                 <div className="list">
                   <ul>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/about-us"}>
-                        About Us
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/admission"}>
-                        Admission
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/academics"}>
-                        Academics
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/iec"}>
-                        IEC
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className="cool-link">E-shop</NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/gallery"}>
-                        Gallery
-                      </NavLink>
-                    </li>
+                    <li>About</li>
+                    <li>Admission</li>
+                    <li>Academics</li>
+                    <li>IEC</li>
+                    <li>E-shop</li>
+                    <li>Gallery</li>
                     <li>
                       {" "}
                       <button className="nav-btn2">e-portal</button>

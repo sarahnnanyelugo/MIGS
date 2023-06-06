@@ -9,7 +9,6 @@ function NavBar() {
   const [mNav, setMNav] = useState(false);
   function toggleNav() {
     setMNav(!mNav);
-    console.log(mNav);
   }
   return (
     <>
@@ -56,8 +55,8 @@ function NavBar() {
           <li>
             <div className="mobile-menu">
               <div
-                className={`dots ${mNav ? "active" : ""}`}
-                onClick={toggleNav}
+                className="dots active"
+                onclick="this.classNameList.toggle('active');"
               >
                 <div className="dot"></div>
                 <div className="dot"></div>
@@ -67,44 +66,11 @@ function NavBar() {
                 </div>
                 <div className="list">
                   <ul>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/about-us"}>
-                        About Us
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/admission"}>
-                        Admission
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/academics"}>
-                        Academics
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/iec"}>
-                        IEC
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className="cool-link">E-shop</NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <NavLink className=" cool-link" to={"/gallery"}>
-                        Gallery
-                      </NavLink>
-                    </li>
-                    <li>
-                      {" "}
-                      <button className="nav-btn2">e-portal</button>
-                    </li>
+                    <li>Mark as read</li>
+                    <li>Flag as important</li>
+                    <li>Save for later</li>
+                    <li>Move to trash</li>
+                    <li>Mark as spam</li>
                   </ul>
                 </div>
                 <div className="dot"></div>
@@ -113,7 +79,10 @@ function NavBar() {
           </li>
         </ul>
       </div>
-      <div className="cursor" onClick={toggleNav}></div>
+      <div
+        className="cursor"
+        onclick="document.querySelector('.dots').classNameList.toggle('active');"
+      ></div>
     </>
   );
 }

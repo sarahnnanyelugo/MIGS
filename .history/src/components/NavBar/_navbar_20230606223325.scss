@@ -41,14 +41,13 @@
 /*side bar*/
 .mobile-menu {
   .dots {
-    display: flex;
+    display: grid;
     margin-top: 30px;
     padding: 10px;
+    position: relative !important;
+    z-index: 100000 !important;
   }
   .cut {
-    margin-top: -25px;
-    position: relative;
-    z-index: 0 !important;
     clip-path: polygon(
       49.94543% 0%,
       49.146605% 0.56499168%,
@@ -219,7 +218,7 @@
     margin-right: 0;
   }
   .drop {
-    background: #fff;
+    background: red;
     border-radius: 1.2px;
     height: 5px;
     transform: translateY(5px);
@@ -298,22 +297,5 @@
     position: absolute;
     top: 25px;
     width: 80px;
-
-    z-index: 100000 !important;
-  }
-  .cool-link {
-    color: #000;
-    font-family: helveticaM;
-    text-decoration: none;
-  }
-  @media screen and (min-width: 620px) {
-    display: none;
-  }
-  .nav-btn2 {
-    background: $red;
-    color: #fff;
-    border-radius: 20px;
-    border: none;
-    font-family: helveticaM;
   }
 }
