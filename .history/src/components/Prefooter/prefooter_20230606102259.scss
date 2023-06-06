@@ -9,7 +9,10 @@
     font-size: 20px;
     font-family: helveticaM;
   }
-
+  h1 {
+    font-size: 55px;
+    color: #fff;
+  }
   span {
     font-size: 60px;
     color: #f2e15f;
@@ -21,13 +24,7 @@
 .prefooter-innner {
   height: 100%;
   position: absolute;
-  background: #414040d5;
-
+  background: rgba(11, 11, 11, 0.8);
   top: 0%;
   left: 0%;
-  h1 {
-    margin-top: 80px;
-    font-size: 55px;
-    color: #fff;
-  }
 }

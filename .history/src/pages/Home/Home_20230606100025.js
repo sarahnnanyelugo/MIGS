@@ -3,7 +3,6 @@ import { AppModal } from "../../components/AppModal/AppModal";
 import LandingImg from "../../assets/images/table.jpeg";
 import Helmet from "../../assets/images/helmet.png";
 import Junior from "../../assets/images/junior.png";
-import Art from "../../assets/images/art.png";
 import Senior from "../../assets/images/senior.png";
 import Primary from "../../assets/images/primary.png";
 import Academics from "../../assets/images/academics.png";
@@ -20,7 +19,6 @@ import Events from "./Events";
 import Prefooter from "../../components/Prefooter/Prefooter";
 import Tour from "../../components/Tour/Tour";
 import LandingImages from "./LandingImages/LandingImages";
-import Play from "../../assets/images/play.png";
 
 function Home() {
   return (
@@ -312,7 +310,7 @@ function Home() {
       </div>
       <div className="col-md-10 offset-md-1 mtt upcoming-div">
         <center>
-          <h1 className="grey-heading2">Our upcoming events</h1>
+          <h1 classname="grey-heading">Our upcoming events</h1>
         </center>
         <div className="flexy mt5">
           <div className="col-md-4">
@@ -356,26 +354,10 @@ function Home() {
           <div className="col-md-8 ">
             <div className="col-md-12 flexy">
               <div className="col-md-6">
-                <div className=" col-md-11">
-                  <img
-                    className="tech-logo"
-                    src={Play}
-                    alt="Scholar"
-                    width="100%"
-                  />{" "}
-                </div>
+                <div className="img-div2 col-md-11"></div>
               </div>{" "}
               <div className="col-md-6">
-                <div className=" col-md-11">
-                  {" "}
-                  <img
-                    className="tech-logo"
-                    src={Junior}
-                    alt="Scholar"
-                    width="100%"
-                    height="100%"
-                  />{" "}
-                </div>
+                <div className="img-div2 col-md-11"></div>
               </div>
             </div>
             <div className="col-md-12 flexy mt3">

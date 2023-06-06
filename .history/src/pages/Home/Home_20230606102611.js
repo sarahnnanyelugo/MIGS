@@ -370,10 +370,9 @@ function Home() {
                   {" "}
                   <img
                     className="tech-logo"
-                    src={Junior}
+                    src={Art}
                     alt="Scholar"
                     width="100%"
-                    height="100%"
                   />{" "}
                 </div>
               </div>

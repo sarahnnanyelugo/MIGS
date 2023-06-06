@@ -3,7 +3,6 @@ import { AppModal } from "../../components/AppModal/AppModal";
 import LandingImg from "../../assets/images/table.jpeg";
 import Helmet from "../../assets/images/helmet.png";
 import Junior from "../../assets/images/junior.png";
-import Art from "../../assets/images/art.png";
 import Senior from "../../assets/images/senior.png";
 import Primary from "../../assets/images/primary.png";
 import Academics from "../../assets/images/academics.png";
@@ -366,16 +365,7 @@ function Home() {
                 </div>
               </div>{" "}
               <div className="col-md-6">
-                <div className=" col-md-11">
-                  {" "}
-                  <img
-                    className="tech-logo"
-                    src={Junior}
-                    alt="Scholar"
-                    width="100%"
-                    height="100%"
-                  />{" "}
-                </div>
+                <div className="img-div2 col-md-11"></div>
               </div>
             </div>
             <div className="col-md-12 flexy mt3">

@@ -1,5 +1,5 @@
 import React from "react";
-import BG from "../../assets/images/suited2.png";
+import BG from "../../assets/images/suited.png";
 
 import "./prefooter.scss";
 function Prefooter() {
