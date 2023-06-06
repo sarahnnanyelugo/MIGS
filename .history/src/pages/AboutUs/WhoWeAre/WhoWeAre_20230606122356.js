@@ -81,9 +81,8 @@ function WhoWeAre() {
       </div>
       <center>
         <p>
-          Montessori International Group of Schools consist of{" "}
-          <strong>8 distinct units. </strong>Each catering to specific age group
-          and educational needs
+          Montossori International Group of Schools consist of{" "}
+          <strong>8</strong>
         </p>
       </center>
       <div className="col-md-10 offset-md-1 flexy">

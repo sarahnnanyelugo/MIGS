@@ -265,9 +265,9 @@ function Home() {
       <center>
         <h1 className="grey-heading2 mb5 mt8">Happenings within MIS</h1>
       </center>
-      <div className="col-md-1 offset-md-11 dn">
+      <div className="col-md-1 offset-md-11">
         {" "}
-        <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
+        <img className="" src={Cap} alt="Scholar" width="100%" />{" "}
       </div>
       <div className="col-md-10 offset-md-1 news-div mtt">
         <div className="flexy mt3">

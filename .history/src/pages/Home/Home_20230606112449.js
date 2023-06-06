@@ -27,7 +27,6 @@ import Dancer from "../../assets/images/dancer2.png";
 import Native from "../../assets/images/native3.png";
 import Circle1 from "../../assets/images/rs-d.png";
 import Circle2 from "../../assets/images/rs-t.png";
-import Cap from "../../assets/images/cap-icon.png";
 
 function Home() {
   return (
@@ -262,14 +261,10 @@ function Home() {
           </div>
         </div>
       </div>
-      <center>
-        <h1 className="grey-heading2 mb5 mt8">Happenings within MIS</h1>
-      </center>
-      <div className="col-md-1 offset-md-11 dn">
-        {" "}
-        <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
-      </div>
       <div className="col-md-10 offset-md-1 news-div mtt">
+        <center>
+          <h1>Happenings within MIS</h1>
+        </center>
         <div className="flexy mt3">
           <div className="col-md-6 flexy">
             <div className="col-md-6 img-div2">
@@ -359,17 +354,8 @@ function Home() {
             Our School <span>Pictures</span>
           </h1>
         </center>
-        <div className="col-md-12  flexy">
-          <div className="col-md-1 circle2">
-            {" "}
-            <img
-              className="tech-logo"
-              src={Circle1}
-              alt="Scholar"
-              width="100%"
-            />
-          </div>
-          <div className="col-md-7 ">
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-8 ">
             <div className="col-md-12 flexy">
               <div className="col-md-6">
                 <div className=" col-md-11">
@@ -421,28 +407,28 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 ">
+          <div className="col-md-4 ">
+            <div className="col-md-4 offset-md-9">
+              {" "}
+              <img
+                className="tech-logo"
+                src={Circle2}
+                alt="Scholar"
+                width="100%"
+              />
+            </div>
             <img
-              className="native"
+              className="tech-logo"
               src={Native}
               alt="Scholar"
               width="100%"
               height="100%"
             />{" "}
           </div>
-          <div className="col-md-1 circle1">
-            {" "}
-            <img
-              className="col-md-12"
-              src={Circle2}
-              alt="Scholar"
-              width="100%"
-            />
-          </div>
         </div>
 
         <center>
-          <div className="col-md-2 mt6">
+          <div className="col-md-2">
             {" "}
             <Link to={"/gallery"}>
               {" "}

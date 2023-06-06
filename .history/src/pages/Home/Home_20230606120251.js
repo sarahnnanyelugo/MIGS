@@ -265,7 +265,7 @@ function Home() {
       <center>
         <h1 className="grey-heading2 mb5 mt8">Happenings within MIS</h1>
       </center>
-      <div className="col-md-1 offset-md-11 dn">
+      <div className="col-md-1 offset-md-11">
         {" "}
         <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
       </div>

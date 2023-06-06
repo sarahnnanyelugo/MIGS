@@ -4,7 +4,7 @@ import PageMenu from "../../../components/PageMenu/PageMenu";
 import Prefooter from "../../../components/Prefooter/Prefooter";
 import Tour from "../../../components/Tour/Tour";
 import LandingImg from "../../../assets/images/aboutLanding.png";
-import Circle from "../../../assets/images/round-img.png";
+import Circle from "../../../assets/images/circle-img.png";
 
 import "./about-us.scss";
 function WhoWeAre() {
@@ -40,9 +40,9 @@ function WhoWeAre() {
         nav="About us"
       />
 
-      <div className="col-md-12 who-we-are">
+      <div className="col-md-6 who-we-are">
         <center>
-          <h1 className="grey-heading">Who we are</h1>
+          <h1>Who we are</h1>
         </center>
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-8">
@@ -79,65 +79,7 @@ function WhoWeAre() {
           </div>
         </div>
       </div>
-      <center>
-        <p>
-          Montessori International Group of Schools consist of{" "}
-          <strong>8 distinct units. </strong>Each catering to specific age group
-          and educational needs
-        </p>
-      </center>
-      <div className="col-md-10 offset-md-1 flexy">
-        <div className="col-md-6">
-          <p>
-            1. The Early Learning Center: Providing comprehensive family day
-            care services for children aged 3 months to 10 years, including
-            crèche, day care, after-school care, weekend care, and holiday care
-            packages.
-          </p>
-          <p>
-            2. Early Years Nursery Section: Divided into the Lower Nursery,
-            which encompasses Ladybird (Preschool) and Bumblebee (Nursery 1),
-            and the Upper Nursery, comprising Honey Bee (Nursery 2) and Busy Bee
-            (Nursery 3).
-          </p>
-          <p>
-            3. Inclusion Unit: Does your child have mild special needs or are
-            you concerned about missed milestones. We offer specialized
-            occupational and behavioral therapy for young children with
-            additional needs ages 5 years and below.
-          </p>
-          <p>
-            4. Lower Primary Section: Comprising Primary One, Primary Two, and
-            Primary Three classes, providing a solid foundation for young
-            learners.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <p>
-            5. Upper Primary Section: Offering classes for Primary Four, Primary
-            Five, and Primary Six pupils.
-          </p>
-          <p>
-            6. Goldsprings Junior High Day School: Catering to the educational
-            needs of Year 7, Year 8, and Year 9 students.
-          </p>
-          <p>
-            7. Goldsprings Senior High Boarding School: Dedicated to Year 10,
-            Year 11, and Year 12 students, providing a comprehensive boarding
-            experience under the guidance of a Principal and a team of dedicated
-            educators and support staff.{" "}
-          </p>
-          <p>
-            8. Inspire Education Consult: the learning and development division
-            of the MIS group of schools, provides a wide range of educational
-            teacher training programs aimed at fostering world-class standards
-            in teaching and professional growth. Our offerings include intensive
-            one-day workshops, short courses, and ongoing development trainings
-            meticulously designed to empower and inspire school teachers and
-            staff.
-          </p>
-        </div>
-      </div>
+
       <Tour />
       <Prefooter />
     </>

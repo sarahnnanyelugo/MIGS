@@ -140,8 +140,9 @@
     margin-bottom: 100px;
   }
   .img-div {
-    // height: 487px;
+    height: 487px;
     border-radius: 10px;
+    background: #fff;
   }
 }
 .stats-div {
@@ -267,16 +268,15 @@
 .circle1 {
   margin-top: -80px;
   margin-left: -100px;
-  @media screen and (max-width: 620px) {
-    display: none;
-  }
 }
 .circle2 {
+  // position: relative;
+
   margin-top: 49%;
   img {
-    margin-left: 100px;
+    margin-left: 70px;
   }
-  @media screen and (max-width: 620px) {
-    display: none;
-  }
+}
+.native {
+  // margin-top: -30px;
 }
