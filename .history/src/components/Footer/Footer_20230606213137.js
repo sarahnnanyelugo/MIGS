@@ -4,7 +4,6 @@ import Message from "../../assets/images/message.png";
 import "./footer.scss";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/images/logo2.png";
-import Logo2 from "../../assets/images/edu-logo.png";
 import FB from "../../assets/images/fb.svg";
 import YT from "../../assets/images/yt.svg";
 import IS from "../../assets/images/is.svg";
@@ -45,26 +44,6 @@ function Footer() {
               State, Nigeria. P.O.BOX 11565
             </p>
             <h5>FOLLOW US ON</h5>
-            <ul className="list-unstyled liist-inline">
-              <li className="list-inline-item">
-                <a href="#" target="_blank" className="">
-                  {" "}
-                  <img className="" src={IS} alt="Scholar" width="100%" />
-                </a>
-              </li>{" "}
-              <li className="list-inline-item">
-                <a href="#" target="_blank" className="">
-                  {" "}
-                  <img className="" src={YT} alt="Scholar" width="100%" />
-                </a>
-              </li>{" "}
-              <li className="list-inline-item">
-                <a href="#" target="_blank" className="">
-                  {" "}
-                  <img className="" src={FB} alt="Scholar" width="100%" />
-                </a>
-              </li>
-            </ul>
           </center>
         </div>
         <div className="col-md-4 offset-md-2 link-div">
@@ -126,12 +105,7 @@ function Footer() {
         <p className="first-para">
           2023 Montessori International Group of schools. All rights reserved
         </p>
-        <div className="flexy flexyM ">
-          <p className="mt1" style={{ marginRight: "5px" }}>
-            Powered by:
-          </p>
-          <img className="" src={Logo2} alt="Scholar" width="40%" />
-        </div>
+        <p>Powered by:</p>
       </div>
     </>
   );

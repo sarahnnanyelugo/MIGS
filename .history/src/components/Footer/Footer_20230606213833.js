@@ -126,11 +126,9 @@ function Footer() {
         <p className="first-para">
           2023 Montessori International Group of schools. All rights reserved
         </p>
-        <div className="flexy flexyM ">
-          <p className="mt1" style={{ marginRight: "5px" }}>
-            Powered by:
-          </p>
-          <img className="" src={Logo2} alt="Scholar" width="40%" />
+        <div className="flexy flexyM">
+          <p>Powered by:</p>
+          <img className="" src={Logo2} alt="Scholar" width="100%" />
         </div>
       </div>
     </>
