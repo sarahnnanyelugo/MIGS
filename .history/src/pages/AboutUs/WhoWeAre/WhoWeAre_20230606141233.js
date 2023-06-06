@@ -5,7 +5,7 @@ import Prefooter from "../../../components/Prefooter/Prefooter";
 import Tour from "../../../components/Tour/Tour";
 import LandingImg from "../../../assets/images/aboutLanding.png";
 import Circle from "../../../assets/images/round-img.png";
-import Curle from "../../../assets/images/curl2.png";
+import Curle from "../../../assets/images/curly.png";
 
 import "./about-us.scss";
 function WhoWeAre() {
@@ -27,8 +27,8 @@ function WhoWeAre() {
         url1={"about-us"}
         page2="Our Mission"
         url2={"/our-mission"}
-        page3="Facilities"
-        url3={"/facility"}
+        page3="School History"
+        url3={"/history"}
         page4="Our Achievements"
         url4={"/achievements"}
         page5="Contact us"
@@ -81,9 +81,14 @@ function WhoWeAre() {
         </div>
         <br />
         <br />
-        <img className="curl dn" src={Curle} alt="Scholar" width="100%" />{" "}
+        <img
+          className="tech-logo"
+          src={Curle}
+          alt="Scholar"
+          width="100%"
+        />{" "}
         <center>
-          <p className="para nm">
+          <p>
             Montessori International Group of Schools consist of{" "}
             <strong>8 distinct units. </strong>Each catering to specific age
             group and educational needs

@@ -1,0 +1,58 @@
+import React from "react";
+import { Breadcrum } from "../../../components/BreadCrumb/BreadCrumb";
+import PageMenu from "../../../components/PageMenu/PageMenu";
+import Prefooter from "../../../components/Prefooter/Prefooter";
+import Tour from "../../../components/Tour/Tour";
+import LandingImg from "../../../assets/images/historyLanding.png";
+
+import "./history.scss";
+function Facility() {
+  return (
+    <>
+      <div className="col-md-12">
+        <img className="" src={LandingImg} alt="Scholar" width="100%" />{" "}
+        <div className="centered2 col-md-5 offset-md-1">
+          <h1>Facilities</h1>
+        </div>
+      </div>
+      <PageMenu
+        page1="Who we are"
+        url1={"/about-us"}
+        page2="Our Mission"
+        url2={"/our-mission"}
+        page3="Facilities"
+        url3={"/facility"}
+        page4="Our Achievements"
+        url4={"/achievements"}
+        page5="Contact us"
+        url5={"/contact-us"}
+      />
+      <Breadcrum
+        page1="About"
+        currentPage="Facilities"
+        pageUrl={"/events"}
+        nav="About us"
+      />
+      <br />
+      <br />
+      <br />
+      <center>
+        <div className="col-md-7 sch-history">
+          <h1 className="grey-heading">Facilities</h1>
+          <p>
+            On behalf of the Management and staff of Montessori International
+            School, we welcome you to our website. We are grateful for another
+            opportunity to offer you our best and are dedicated to ensuring that
+            your child grows up balanced in all endeavours of life and not just
+            academically.
+          </p>
+        </div>
+      </center>
+
+      <Tour />
+      <Prefooter />
+    </>
+  );
+}
+
+export default Facility;

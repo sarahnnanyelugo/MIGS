@@ -27,8 +27,8 @@ function WhoWeAre() {
         url1={"about-us"}
         page2="Our Mission"
         url2={"/our-mission"}
-        page3="Facilities"
-        url3={"/facility"}
+        page3="School History"
+        url3={"/history"}
         page4="Our Achievements"
         url4={"/achievements"}
         page5="Contact us"
@@ -83,7 +83,7 @@ function WhoWeAre() {
         <br />
         <img className="curl dn" src={Curle} alt="Scholar" width="100%" />{" "}
         <center>
-          <p className="para nm">
+          <p className="para">
             Montessori International Group of Schools consist of{" "}
             <strong>8 distinct units. </strong>Each catering to specific age
             group and educational needs

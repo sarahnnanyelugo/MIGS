@@ -27,7 +27,7 @@ function WhoWeAre() {
         url1={"about-us"}
         page2="Our Mission"
         url2={"/our-mission"}
-        page3="Facilities"
+        page3="School History"
         url3={"/facility"}
         page4="Our Achievements"
         url4={"/achievements"}

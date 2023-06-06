@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import OurMission from "./pages/AboutUs/OurMission/OurMission";
 import WhoWeAre from "./pages/AboutUs/WhoWeAre/WhoWeAre";
+import History from "./pages/AboutUs/History/History";
 import Achievements from "./pages/AboutUs/Achievements/Achievements";
 import ContactUs from "./pages/AboutUs/ContactUs/ContactUs";
 import Admission from "./pages/Admission/Admission";

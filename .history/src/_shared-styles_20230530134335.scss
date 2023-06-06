@@ -14,8 +14,14 @@
   .dn {
     display: none;
   }
-
-  .nm {
+  .holder img {
+    height: 200px;
+    margin-top: 40px !important;
+  }
+  .overlay {
+    bottom: -30px !important;
+  }
+  .m-margin {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }

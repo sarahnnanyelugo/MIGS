@@ -5,7 +5,6 @@ import Prefooter from "../../../components/Prefooter/Prefooter";
 import Tour from "../../../components/Tour/Tour";
 import LandingImg from "../../../assets/images/aboutLanding.png";
 import Circle from "../../../assets/images/round-img.png";
-import Curle from "../../../assets/images/curl2.png";
 
 import "./about-us.scss";
 function WhoWeAre() {
@@ -27,8 +26,8 @@ function WhoWeAre() {
         url1={"about-us"}
         page2="Our Mission"
         url2={"/our-mission"}
-        page3="Facilities"
-        url3={"/facility"}
+        page3="School History"
+        url3={"/history"}
         page4="Our Achievements"
         url4={"/achievements"}
         page5="Contact us"
@@ -79,46 +78,39 @@ function WhoWeAre() {
             />
           </div>
         </div>
-        <br />
-        <br />
-        <img className="curl dn" src={Curle} alt="Scholar" width="100%" />{" "}
-        <center>
-          <p className="para nm">
-            Montessori International Group of Schools consist of{" "}
-            <strong>8 distinct units. </strong>Each catering to specific age
-            group and educational needs
-          </p>
-        </center>
       </div>
-
+      <center>
+        <p>
+          Montessori International Group of Schools consist of{" "}
+          <strong>8 distinct units. </strong>Each catering to specific age group
+          and educational needs
+        </p>
+      </center>
       <div className="col-md-10 offset-md-1 flexy">
         <div className="col-md-6">
-          <div className="col-md-11">
-            {" "}
-            <p>
-              <strong> 1. The Early Learning Center:</strong> Providing
-              comprehensive family day care services for children aged 3 months
-              to 10 years, including crèche, day care, after-school care,
-              weekend care, and holiday care packages.
-            </p>
-            <p>
-              <strong> 2. Early Years Nursery Section:</strong> Divided into the
-              Lower Nursery, which encompasses Ladybird (Preschool) and
-              Bumblebee (Nursery 1), and the Upper Nursery, comprising Honey Bee
-              (Nursery 2) and Busy Bee (Nursery 3).
-            </p>
-            <p>
-              <strong> 3. Inclusion Unit: </strong>Does your child have mild
-              special needs or are you concerned about missed milestones. We
-              offer specialized occupational and behavioral therapy for young
-              children with additional needs ages 5 years and below.
-            </p>
-            <p>
-              <strong> 4. Lower Primary Section:</strong> Comprising Primary
-              One, Primary Two, and Primary Three classes, providing a solid
-              foundation for young learners.
-            </p>
-          </div>
+          <p>
+            <strong> 1. The Early Learning Center:</strong> Providing
+            comprehensive family day care services for children aged 3 months to
+            10 years, including crèche, day care, after-school care, weekend
+            care, and holiday care packages.
+          </p>
+          <p>
+            <strong> 2. Early Years Nursery Section:</strong> Divided into the
+            Lower Nursery, which encompasses Ladybird (Preschool) and Bumblebee
+            (Nursery 1), and the Upper Nursery, comprising Honey Bee (Nursery 2)
+            and Busy Bee (Nursery 3).
+          </p>
+          <p>
+            <strong> 3. Inclusion Unit: </strong>Does your child have mild
+            special needs or are you concerned about missed milestones. We offer
+            specialized occupational and behavioral therapy for young children
+            with additional needs ages 5 years and below.
+          </p>
+          <p>
+            <strong> 4. Lower Primary Section:</strong> Comprising Primary One,
+            Primary Two, and Primary Three classes, providing a solid foundation
+            for young learners.
+          </p>
         </div>
         <div className="col-md-6">
           <div className="col-md-11">
