@@ -1,0 +1,44 @@
+.prefooter-container {
+  @media screen and (max-width: 620px) {
+    height: 150px;
+  }
+
+  position: relative;
+  background-size: cover;
+  button {
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: helveticaM;
+  }
+
+  .prefooter-btn {
+    margin: 50px 50px !important;
+    @media screen and (max-width: 620px) {
+      margin: 20px 10px !important;
+      font-size: 12px;
+    }
+  }
+}
+.prefooter-innner {
+  height: 100% !important;
+  position: absolute;
+  background: #414040d5;
+  width: 100% !important;
+  top: 0%;
+  left: 0%;
+  h1 {
+    margin-top: 80px;
+    font-size: 55px;
+    color: #fff;
+    @media screen and (max-width: 620px) {
+      font-size: 30px;
+      margin-top: 10px;
+      margin-left: 10%;
+    }
+
+    span {
+      font-size: 65px !important;
+      color: #f2e15f;
+    }
+  }
+}
