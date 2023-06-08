@@ -34,9 +34,7 @@ import Enroll from "../../assets/images/enroll.png";
 function Home() {
   return (
     <>
-      <div className="col-md-12">
-        <LandingImages />
-      </div>
+      <div className="col-md-12">{/* <LandingImages /> */}</div>
       <center>
         <div className="col-md-12 welcome-div">
           <div className="col-md-7 welcome-header2 mtt nm">
@@ -277,11 +275,11 @@ function Home() {
       <center>
         <h1 className="grey-heading2 mb5 mt8">Happenings within MIS</h1>
       </center>
-      <div className="col-md-1 offset-md-11 col-2 offset-10">
+      <div className="col-md-1 offset-md-11 dn">
         {" "}
         <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
       </div>
-      <div className="col-md-10 offset-md-1 news-div mtt nm">
+      <div className="col-md-10 offset-md-1 news-div mtt">
         <div className="flexy mt3">
           <div className="col-md-6 flexy flexyM">
             <div className="col-md-6">

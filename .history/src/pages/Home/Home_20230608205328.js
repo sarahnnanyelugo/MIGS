@@ -375,7 +375,7 @@ function Home() {
             Our School <span>Pictures</span>
           </h1>
         </center>
-        <div className="col-md-12  flexy">
+        {/* <div className="col-md-12  flexy">
           <div className="col-md-1 circle2">
             {" "}
             <img className="" src={Circle1} alt="Scholar" width="180%" />
@@ -445,7 +445,7 @@ function Home() {
             {" "}
             <img src={Circle2} alt="Scholar" width="80%" />
           </div>
-        </div>
+        </div> */}
 
         <center>
           <div className="col-md-2 mt6">

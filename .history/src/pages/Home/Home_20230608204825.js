@@ -91,7 +91,7 @@ function Home() {
           </div>{" "}
         </div>
       </div>
-      <div className="col-md-8 offset-md-2 flexy mt1">
+      {/* <div className="col-md-8 offset-md-2 flexy mt1">
         <div className="col-md-6">
           <div className="col-md-11 sections-container junior ">
             <img
@@ -120,7 +120,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="col-md-12 birthright-div">
         <center>
           <div className="col-md-6">
@@ -277,11 +277,11 @@ function Home() {
       <center>
         <h1 className="grey-heading2 mb5 mt8">Happenings within MIS</h1>
       </center>
-      <div className="col-md-1 offset-md-11 col-2 offset-10">
+      <div className="col-md-1 offset-md-11 dn">
         {" "}
         <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
       </div>
-      <div className="col-md-10 offset-md-1 news-div mtt nm">
+      <div className="col-md-10 offset-md-1 news-div mtt">
         <div className="flexy mt3">
           <div className="col-md-6 flexy flexyM">
             <div className="col-md-6">

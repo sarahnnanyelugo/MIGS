@@ -281,7 +281,7 @@ function Home() {
         {" "}
         <img className="" src={Cap} alt="Scholar" width="40%" />{" "}
       </div>
-      <div className="col-md-10 offset-md-1 news-div mtt nm">
+      <div className="col-md-10 offset-md-1 news-div mtt">
         <div className="flexy mt3">
           <div className="col-md-6 flexy flexyM">
             <div className="col-md-6">
