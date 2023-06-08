@@ -23,7 +23,7 @@ import LandingImages from "./LandingImages/LandingImages";
 import Play from "../../assets/images/play.png";
 import Art2 from "../../assets/images/art4.png";
 import Plate from "../../assets/images/plate.png";
-import Dancer from "../../assets/images/g-dancers.png";
+import Dancer from "../../assets/images/g-dancer.png";
 import Native from "../../assets/images/native3.png";
 import Circle1 from "../../assets/images/rs-d.png";
 import Circle2 from "../../assets/images/rs-t.png";
@@ -392,7 +392,7 @@ function Home() {
                   />{" "}
                 </div>
               </div>{" "}
-              <div className="col-md-6 other-imgs">
+              <div className="col-md-6">
                 <div className=" col-md-11">
                   {" "}
                   <img
@@ -405,7 +405,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 flexy mt3 other-imgs">
+            <div className="col-md-12 flexy mt3">
               <div className="col-md-7 ">
                 <div className="col-md-11 ">
                   {" "}
@@ -432,16 +432,14 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 other-imgs ">
-            <div className="col-md-12">
-              <img
-                className="native"
-                src={Native}
-                alt="Scholar"
-                width="100%"
-                height="100%"
-              />{" "}
-            </div>
+          <div className="col-md-3 ">
+            <img
+              className="native"
+              src={Native}
+              alt="Scholar"
+              width="100%"
+              height="100%"
+            />{" "}
           </div>
           <div className="col-md-2 circle1">
             {" "}

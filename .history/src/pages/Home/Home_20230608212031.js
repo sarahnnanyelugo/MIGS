@@ -392,7 +392,7 @@ function Home() {
                   />{" "}
                 </div>
               </div>{" "}
-              <div className="col-md-6 other-imgs">
+              <div className="col-md-6">
                 <div className=" col-md-11">
                   {" "}
                   <img
@@ -432,7 +432,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 other-imgs ">
+          <div className="col-md-3 ">
             <div className="col-md-12">
               <img
                 className="native"

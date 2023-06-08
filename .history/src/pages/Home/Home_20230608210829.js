@@ -392,7 +392,7 @@ function Home() {
                   />{" "}
                 </div>
               </div>{" "}
-              <div className="col-md-6 other-imgs">
+              <div className="col-md-6">
                 <div className=" col-md-11">
                   {" "}
                   <img
@@ -405,7 +405,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 flexy mt3 other-imgs">
+            <div className="col-md-12 flexy mt3">
               <div className="col-md-7 ">
                 <div className="col-md-11 ">
                   {" "}
@@ -432,8 +432,8 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 other-imgs ">
-            <div className="col-md-12">
+          <div className="col-md-3 ">
+            <div className="col-md-2">
               <img
                 className="native"
                 src={Native}

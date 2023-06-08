@@ -392,7 +392,7 @@ function Home() {
                   />{" "}
                 </div>
               </div>{" "}
-              <div className="col-md-6 other-imgs">
+              <div className="col-md-6">
                 <div className=" col-md-11">
                   {" "}
                   <img
