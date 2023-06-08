@@ -1,0 +1,87 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.nav-container {
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+  z-index: 2 !important;
+  padding-bottom: 0;
+  height: 100px;
+  background-color: #fff !important;
+  ul li {
+    margin-top: 0px !important;
+  }
+  .nav-btn {
+    @include app-btn;
+    padding: 8px 40px;
+    // margin-top: 0 !important;
+    border: none;
+    @media screen and (max-width: 620px) {
+      display: none;
+    }
+  }
+  .tech-logo-div {
+    flex-grow: 1 !important;
+    margin-top: -10px;
+  }
+  .tech-links {
+    color: #000;
+    text-decoration: none;
+    font-family: helveticaM;
+    margin: 0px 28px !important;
+    &:hover {
+      color: $red;
+    }
+    @media screen and (max-width: 620px) {
+      display: none;
+    }
+  }
+}
+/*side bar*/
+.offcanvas-body {
+  border-right: solid 3px $yellow;
+  // width: 70%;
+}
+.offcanvas-header {
+  // border-right: solid 10px $seagreen;
+}
+.offcanvas-backdrop {
+  background: transparent;
+}
+.offcanvas {
+  width: 80% !important;
+  transition: transform 1s ease-in-out !important;
+}
+
+.menu-icon i {
+  color: $yellow;
+  font-size: 24px;
+  margin-top: -50px;
+}
+.menu-navs {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: helveticaM;
+
+  span {
+    margin-right: 20px;
+    color: $yellow;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
+.portal {
+  button {
+    background: $red;
+    // background: $yellow;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 620px) {
+  .mobile-nav {
+    display: none !important;
+  }
+}
