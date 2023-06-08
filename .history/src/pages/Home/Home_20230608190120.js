@@ -37,7 +37,7 @@ function Home() {
       </div>
       <center>
         <div className="col-md-12 welcome-div">
-          <div className="col-md-7 welcome-header2 mtt nm">
+          <div className="col-md-7 welcome-header2 mtt">
             <h1 className="grey-heading2">
               Welcome to Montessori International Group of Schools
             </h1>
