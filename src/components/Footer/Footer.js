@@ -130,7 +130,10 @@ function Footer() {
           <p className="mt1" style={{ marginRight: "5px" }}>
             Powered by:
           </p>
-          <img className="" src={Logo2} alt="Scholar" width="40%" />
+          <a href={"http://educare.school/"} target="_blank">
+            {" "}
+            <img className="" src={Logo2} alt="Scholar" width="40%" />
+          </a>
         </div>
       </div>
     </>

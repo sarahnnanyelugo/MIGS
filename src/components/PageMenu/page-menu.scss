@@ -1,6 +1,9 @@
 .page-menu-div {
   background: #ffe4e4;
   padding: 20px;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
   .menu-links {
     text-decoration: none;
     font-family: helveticaM;

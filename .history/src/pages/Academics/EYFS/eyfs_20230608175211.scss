@@ -1,0 +1,116 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.eyfs-div {
+  p {
+    color: #707070;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  .apply-link {
+    color: $red;
+  }
+  .apply-div {
+    background: #fff;
+    padding-top: 1px;
+    height: 86px;
+
+    p {
+      line-height: 0;
+      margin-bottom: 10px;
+    }
+    margin-bottom: 70px;
+  }
+}
+.eyfs-body {
+  background: #fafafa;
+}
+.curriculum-div {
+  .curriculum {
+    height: 356px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    ul li {
+      text-align: left !important;
+      font-family: helveticaM;
+      font-size: 14px !important;
+      color: #707070;
+      line-height: 30px;
+    }
+    ul {
+      list-style: none;
+    }
+    h6 {
+      text-align: left !important;
+      font-size: 15px !important;
+      font-family: helveticaM;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 620px) {
+      height: fit-content;
+    }
+    span {
+      font-family: helveticaR;
+    }
+  }
+  .creche {
+    background: #fffad8;
+    border: solid 1px #f5de2e;
+    li::before {
+      content: "•";
+      color: #f5de2e;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+  .ladybird {
+    background: #fff2f2;
+    border: solid 1px #fa4a4a;
+    li::before {
+      content: "•";
+      color: #fa4a4a;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+  .bumble {
+    background: #edfff9;
+    border: solid 1px #069060;
+    li::before {
+      content: "•";
+      color: #069060;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+  .honey {
+    background: #e4f4fa;
+    border: solid 1px #0995c9;
+    li::before {
+      content: "•";
+      color: #0995c9;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+  .busy {
+    background: #f9edff;
+    border: solid 1px #a81aef;
+    li::before {
+      content: "•";
+      color: #a81aef;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      //   margin-left: -1em;
+    }
+  }
+}

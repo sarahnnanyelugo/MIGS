@@ -40,7 +40,7 @@ function App() {
         <Route path="gallery" element={<Gallery />} />
         <Route path="iec" element={<IEC />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

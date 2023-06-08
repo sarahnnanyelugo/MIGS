@@ -4,7 +4,7 @@ import PageMenu from "../../../components/PageMenu/PageMenu";
 import Prefooter from "../../../components/Prefooter/Prefooter";
 import Tour from "../../../components/Tour/Tour";
 import LandingImg from "../../../assets/images/missionLanding.png";
-import Lab from "../../../assets/images/lab_girl.png";
+import Lab from "../../../assets/images/drawings.png";
 
 import "./our-mission.scss";
 function OurMission() {

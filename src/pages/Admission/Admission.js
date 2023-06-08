@@ -5,7 +5,7 @@ import "./admission.scss";
 import AdmissionForm from "./AdmissionForm/AdmissionForm";
 import Tour from "../../components/Tour/Tour";
 import Prefooter from "../../components/Prefooter/Prefooter";
-import LandingImg from "../../assets/images/admissionLanding.png";
+import LandingImg from "../../assets/images/drawing-bg.png";
 
 function Admission() {
   return (

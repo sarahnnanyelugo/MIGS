@@ -4,7 +4,7 @@ import { Breadcrum } from "../../../components/BreadCrumb/BreadCrumb";
 import PageMenu from "../../../components/PageMenu/PageMenu";
 import Prefooter from "../../../components/Prefooter/Prefooter";
 import Tour from "../../../components/Tour/Tour";
-import LandingImg from "../../../assets/images/contact-us_bg.png";
+import LandingImg from "../../../assets/images/helmet-bg.png";
 import Icon1 from "../../../assets/images/tel.png";
 import Icon2 from "../../../assets/images/message.png";
 
@@ -69,7 +69,7 @@ function ContactUs() {
             </ul>
             <div className="col-md-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d253640.8741805335!2d3.2975506578951204!3d6.6296947299687545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smontessori%20international%20group%20of%20schools!5e0!3m2!1sen!2sng!4v1685968589154!5m2!1sen!2sng"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7167972051357!2d6.997561076385153!3d4.818613340621149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce7dcca2a051%3A0x3204267d69c71a78!2sMontessori%20International%20School%20GRA.!5e0!3m2!1sen!2sng!4v1686241487034!5m2!1sen!2sng"
                 style={{ border: "0", height: "600px", width: "100%" }}
                 allowfullscreen=""
                 loading="lazy"

@@ -3,6 +3,9 @@ import { Breadcrum } from "../../../components/BreadCrumb/BreadCrumb";
 import PageMenu from "../../../components/PageMenu/PageMenu";
 import Pic1 from "../../../assets/images/kids_game.png";
 import Pic2 from "../../../assets/images/kids_mat.png";
+import Pic3 from "../../../assets/images/sliding.png";
+import Pic4 from "../../../assets/images/play-kids.png";
+import Pic5 from "../../../assets/images/play-kids2.png";
 import { Link } from "react-router-dom";
 import "./eyfs.scss";
 import LandingImg from "../../../assets/images/EYSLanding.png";
@@ -87,7 +90,29 @@ function EYFS() {
           </div>
         </center>
         <center>
-          <div className="col-md-6">
+          <div className="col-md-10 flexy">
+            <div className="col-md-4">
+              <div className="col-md-10">
+                {" "}
+                <img className="" src={Pic3} alt="Scholar" width="100%" />{" "}
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="col-md-10">
+                {" "}
+                <img className="" src={Pic4} alt="Scholar" width="100%" />{" "}
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="col-md-10">
+                {" "}
+                <img className="" src={Pic5} alt="Scholar" width="100%" />{" "}
+              </div>
+            </div>
+          </div>
+        </center>
+        <center>
+          <div className="col-md-6 mtt">
             <h1 className="">Our Curriculum</h1>
             <p>
               Our center curriculum is a blend of the British EYFS Curriculum
@@ -97,13 +122,13 @@ function EYFS() {
           </div>
         </center>
       </div>
-      <div className="col-md-12  flexy curriculum-div">
+      <div className="col-md-12  flexy curriculum-div mt">
         <div className="col-md-1 ">&nbsp;</div>
         <div className="col-md-3 ">
           <center>
             <div className="col-md-11 curriculum creche">
+              <h6>Gymboree/Creche (6 months - 11 months)</h6>
               <ul>
-                <h6>Gymboree/Creche (6 months - 11 months)</h6>
                 <li>Loving DayCare </li>
                 <li> Story Time</li>
                 <li>Songs & Rhymes </li>
@@ -115,114 +140,79 @@ function EYFS() {
         <div className="col-md-3 ">
           <center>
             {" "}
-            <div className="col-md-11 curriculum ladybird flexy flexyM">
-              <ul>
-                <h6>LadyBird (12months+)</h6>
-                <li>Phonics</li>
-                <li>Numbers</li>
-                <li> Story Time</li>
-                <li>TV Time</li>
-                <li>Art Time </li>
-                <li> Music & Dance</li>
-              </ul>{" "}
-              <ul className="mt3">
-                <li>Songs & Rhymes</li>
-                <li>Outdoor Play</li>
-                <li> Sensory Play</li>
-                <li>Scriptures,</li>
-                <li>Praise & </li>
-                <li> Prayers lots more.</li>
-              </ul>
+            <div className="col-md-11 curriculum ladybird ">
+              <h6>
+                LadyBird
+                <br /> <span>(12months+)</span>
+              </h6>
+              <div className="flexy flexyM">
+                <ul>
+                  <li>Phonics</li>
+                  <li>Numbers</li>
+                  <li> Story Time</li>
+                  <li>TV Time</li>
+                  <li>Art Time </li>
+                  <li> Music & Dance</li>
+                </ul>{" "}
+                <ul>
+                  <li>Songs & Rhymes</li>
+                  <li>Outdoor Play</li>
+                  <li> Sensory Play</li>
+                  <li>Scriptures,</li>
+                  <li>Praise & Prayers</li>
+                  <h6> lots more.</h6>
+                </ul>
+              </div>
             </div>
           </center>
         </div>
         <div className="col-md-4 ">
           <center>
-            {" "}
-            <div className="col-md-11 curriculum bumble flexy flexyM">
-              <ul>
-                <h6>Bumble Bee(2years+)</h6>
-                <li>Practical Life</li>
-                <li>Numeracy </li>
-                <li>Phonics </li>
-                <li>Communication &</li>
-                <li>Language </li>
-                <li> PSED</li>
-                <li> Expressive Art &</li>
-                <li> Design</li>
-              </ul>
-              <ul className="mt3">
-                <li>Physical Development .</li>
-                <li>Outdoor Play</li>
-                <li>Scriptures</li>
-                <li> Praise & Prayers</li>
-                <li>Music & Dance</li>
-                <li>Story Time </li>
-                <li> Songs & Rhymes</li>
-                <li>Outdoor Play and lots more.</li>
-              </ul>
+            <div className="col-md-11 curriculum bumble ">
+              <div className="flexy flexyM">
+                {" "}
+                <h6 className="col-md-4">
+                  Bumble Bee <br />
+                  <span> (2years+)</span>
+                </h6>
+                <h6 className="col-md-4">
+                  Honey Bee
+                  <br />
+                  <span> (3years+)</span>
+                </h6>
+                <h6 className="col-md-4">
+                  Busy Bee
+                  <br />
+                  <span> (4years+)</span>
+                </h6>
+              </div>
+              <div className="flexy flexyM">
+                <ul>
+                  <li>Practical Life</li>
+                  <li>Numeracy </li>
+                  <li>Phonics </li>
+                  <li>Communication &</li>
+                  <li>Language </li>
+                  <li> PSED</li>
+                  <li> Expressive Art &</li>
+                  <li> Design</li>
+                </ul>
+                <ul>
+                  <li>Physical Development .</li>
+                  <li>Outdoor Play</li>
+                  <li>Scriptures</li>
+                  <li> Praise & Prayers</li>
+                  <li>Music & Dance</li>
+                  <li>Story Time </li>
+                  <li> Songs & Rhymes</li>
+                  <li>Outdoor Play and lots more.</li>
+                </ul>
+              </div>
             </div>
           </center>
         </div>
       </div>
-      <div className="col-md-8  offset-md-2 flexy curriculum-div mt4">
-        <div className="col-md-6">
-          <center>
-            {" "}
-            <div className="col-md-11 curriculum honey flexy flexyM">
-              <ul>
-                <h6>Honey Bee(3years+)</h6>
-                <li>Practical Life </li>
-                <li> Numeracy</li>
-                <li>Phonics</li>
-                <li>Communication & </li>
-                <li> Language</li>
-                <li> PSED </li>
-                <li>Expressive Art &</li>
-                <li>Design</li>
-              </ul>{" "}
-              <ul className="mt3">
-                <li>Physical Development </li>
-                <li>Outdoor Play</li>
-                <li> Scriptures</li>
-                <li>Praise & Prayers</li>
-                <li>Music & Dance</li>
-                <li>Story Time</li>
-                <li>Songs & Rhymes</li>
-                <li>Outdoor Play and lots more..</li>
-              </ul>
-            </div>
-          </center>
-        </div>
-        <div className="col-md-6">
-          <center>
-            {" "}
-            <div className="col-md-11 curriculum busy flexy flexyM">
-              <ul>
-                <h6>Busy Bee(4years+)</h6>
-                <li>Practical Life</li>
-                <li>Numeracy</li>
-                <li> Phonics </li>
-                <li>Communication & </li>
-                <li>Language</li>
-                <li>PSED</li>
-                <li>Expressive Art & </li>
-                <li> Design</li>
-              </ul>
-              <ul className="mt3">
-                <li>Physical Development </li>
-                <li>Outdoor Play</li>
-                <li> Scriptures</li>
-                <li>Praise & Prayers</li>
-                <li>Music & Dance</li>
-                <li>Story Time</li>
-                <li>Songs & Rhymes</li>
-                <li>Outdoor Play and lots more..</li>
-              </ul>
-            </div>
-          </center>
-        </div>
-      </div>
+
       <br />
       <br />
       <br />

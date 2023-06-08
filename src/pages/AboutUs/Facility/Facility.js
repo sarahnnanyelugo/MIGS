@@ -7,6 +7,8 @@ import LandingImg from "../../../assets/images/historyLanding.png";
 import Img1 from "../../../assets/images/swim2.png";
 import Img2 from "../../../assets/images/lab-guys.png";
 import Img3 from "../../../assets/images/playground2.png";
+import Img4 from "../../../assets/images/bake.png";
+import Img5 from "../../../assets/images/micro.png";
 
 import "./history.scss";
 function Facility() {
@@ -51,7 +53,7 @@ function Facility() {
           </p>
         </div>
       </center>
-      <ul className=" offset-md-1 facility-list">
+      <ul className=" offset-md-1 facility-list col-md-10">
         <li>
           <strong> Science Lab:</strong> A fully functional laboratory where
           students can validate empirical ideas and concepts.
@@ -68,8 +70,44 @@ function Facility() {
           <strong> Extra-Curricular Lab: </strong>A dedicated space for artistic
           pursuits, crafts, and our vibrant after-school clubs.
         </li>
+        <li>
+          <strong> Library:</strong> Our extensive collection of books,
+          predominantly authored by esteemed international scholars, is readily
+          accessible to both staff and students for reading and borrowing. Our
+          dedicated library staff provides invaluable assistance to users.
+        </li>
+        <li>
+          <strong> Swimming Pool:</strong> A pristine pool for recreational and
+          educational purposes, promoting physical fitness and water-based
+          activities.
+        </li>
+        <li>
+          <strong> Play Spaces:</strong> Enchanting and safe indoor and outdoor
+          areas designed to stimulate imaginative play and promote physical
+          development.
+        </li>
       </ul>
       <div className="col-md-10 offset-md-1 flexy mt7 f-imgs">
+        <div className="col-md-4">
+          <div className="col-md-11">
+            {" "}
+            <img className="" src={Img4} alt="Scholar" width="100%" />{" "}
+          </div>
+        </div>{" "}
+        <div className="col-md-4">
+          <div className="col-md-11">
+            {" "}
+            <img className="" src={Img5} alt="Scholar" width="100%" />{" "}
+          </div>
+        </div>{" "}
+        <div className="col-md-4">
+          <div className="col-md-11">
+            {" "}
+            <img className="" src={Img3} alt="Scholar" width="100%" />{" "}
+          </div>
+        </div>
+      </div>{" "}
+      <div className="col-md-10 offset-md-1 flexy mt1 f-imgs">
         <div className="col-md-4">
           <div className="col-md-11">
             {" "}
@@ -89,25 +127,12 @@ function Facility() {
           </div>
         </div>
       </div>
-      <ul className=" offset-md-1 facility-list col-md-10 mt7">
-        <li>
-          <strong> Library:</strong> Our extensive collection of books,
-          predominantly authored by esteemed international scholars, is readily
-          accessible to both staff and students for reading and borrowing. Our
-          dedicated library staff provides invaluable assistance to users.
-        </li>
-        <li>
-          <strong> Swimming Pool:</strong> A pristine pool for recreational and
-          educational purposes, prom oting physical fitness and water-based
-          activities.
-        </li>
-        <li>
-          {" "}
-          <strong> Play Spaces:</strong> Enchanting and safe indoor and outdoor
-          areas designed to stimulate imaginative play and promote physical
-          development.
-        </li>
-      </ul>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Tour />
       <Prefooter />
     </>
