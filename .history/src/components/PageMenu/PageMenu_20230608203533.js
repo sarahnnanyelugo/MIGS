@@ -36,7 +36,7 @@ function PageMenu(props) {
           {props.page4 ? (
             <li className="list-inline-item">
               <NavLink
-                to={"/achievements"}
+                to={props.page4}
                 activeClassName="active"
                 className="menu-links"
               >
