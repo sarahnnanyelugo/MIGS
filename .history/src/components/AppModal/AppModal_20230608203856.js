@@ -45,7 +45,7 @@ export const AppModal = () => {
                   Admission is currently on into Creche, Pre-school, Primary and
                   Secondary classes.
                 </p>
-                <Link to={"/admission"} style={{ textDecoration: "none" }}>
+                <Link to={"/admission"}>
                   {" "}
                   <buttton className="app-btn col-md-12">Apply Now</buttton>
                 </Link>

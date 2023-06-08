@@ -1,6 +1,7 @@
 import "./_app-modal.scss";
-import { Link, NavLink } from "react-router-dom";
 
+// import ModalImg from "../../assets/read2.png";
+// import SampleLogo from "../../assets/wellspring.png";
 import Pic1 from "../../assets/images/modal.png";
 
 import React, { useEffect, useRef, useState } from "react";
@@ -12,7 +13,14 @@ export const AppModal = () => {
 
   useEffect(() => {
     setTimeout(() => {
+      // modalContainer.addClass("two");
+      // document.body.addClass("modal-active");
       setShowActive(true);
+      // modalContainer.click(function () {
+      // setShowActive(false);
+      // this.addClass("out");
+      // document.body.removeClass("modal-active");
+      // });
     }, 2000);
   }, []);
   const setThisShowActive = () => {
@@ -45,7 +53,7 @@ export const AppModal = () => {
                   Admission is currently on into Creche, Pre-school, Primary and
                   Secondary classes.
                 </p>
-                <Link to={"/admission"} style={{ textDecoration: "none" }}>
+                <Link to={"/admission"}>
                   {" "}
                   <buttton className="app-btn col-md-12">Apply Now</buttton>
                 </Link>
