@@ -33,13 +33,9 @@ const AdmissionProcess = () => {
                 <div className="col-md-12 apply-div">
                   <center>
                     <p>Admission into the EYFS is open for September 2023</p>
-                    <a
-                      className="apply-link"
-                      href="https://misg.educare.school/admission-form"
-                      target="_blank"
-                    >
+                    <Link className="apply-link" to={"/"}>
                       Apply now
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </li>

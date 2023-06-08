@@ -25,13 +25,10 @@ function Prefooter() {
             </div>
             <div className="col-md-3 prefooter-btn col-3">
               {" "}
-              <a
-                href="https://misg.educare.school/admission-form"
-                target="_blank"
-              >
+              <Link to={"https://misg.educare.school/admission-form"}>
                 {" "}
                 <button className="app-btn   prefooter-btn">Apply</button>
-              </a>
+              </Link>
             </div>
             <div className="col-md-3  prefooter-btn col-3">
               {" "}

@@ -47,11 +47,7 @@ function Footer() {
             <h5>FOLLOW US ON</h5>
             <ul className="list-unstyled liist-inline">
               <li className="list-inline-item">
-                <a
-                  href="https://www.instagram.com/mislearningcenter/"
-                  target="_blank"
-                  className=""
-                >
+                <a href="#" target="_blank" className="">
                   {" "}
                   <img className="" src={IS} alt="Scholar" width="100%" />
                 </a>
