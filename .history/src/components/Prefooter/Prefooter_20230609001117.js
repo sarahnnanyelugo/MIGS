@@ -18,7 +18,7 @@ function Prefooter() {
           <div className="col-md-10 flexy flexyM">
             <div className="col-md-3 prefooter-btn col-3">
               {" "}
-              <Link to={"/contact-us"}>
+              <Link to={"contact-us"}>
                 {" "}
                 <button className="app-btn prefooter-btn">Visit</button>
               </Link>
