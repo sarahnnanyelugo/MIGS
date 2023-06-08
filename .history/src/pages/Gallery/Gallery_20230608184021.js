@@ -73,10 +73,6 @@ export default function Gallery(props) {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Prefooter />
     </>
   );

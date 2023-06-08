@@ -62,8 +62,6 @@ function JuniorSecondary() {
           <div className="col-md-6">
             <div className="col-md-11">
               <img className="" src={Science} alt="Scholar" width="100%" />{" "}
-              <br />
-              <br />
               <p>
                 Behold the distinguished features that make our Junior Secondary
                 section truly exceptional:

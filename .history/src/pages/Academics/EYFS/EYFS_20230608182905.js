@@ -122,7 +122,7 @@ function EYFS() {
           </div>
         </center>
       </div>
-      <div className="col-md-12  flexy curriculum-div mt8">
+      <div className="col-md-12  flexy curriculum-div mt">
         <div className="col-md-1 ">&nbsp;</div>
         <div className="col-md-3 ">
           <center>
@@ -161,10 +161,8 @@ function EYFS() {
                   <li>Outdoor Play</li>
                   <li> Sensory Play</li>
                   <li>Scriptures,</li>
-                  <li>
-                    Praise & Prayers
-                    <br /> lots more..
-                  </li>
+                  <li>Praise & Prayers</li>
+                  <h6> lots more.</h6>
                 </ul>
               </div>
             </div>

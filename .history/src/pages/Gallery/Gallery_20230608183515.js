@@ -5,7 +5,7 @@ import LandingImg from "../../assets/images/dancers.png";
 import Pic1 from "../../assets/images/native2.png";
 import Pic2 from "../../assets/images/party.png";
 import Pic3 from "../../assets/images/sports.png";
-import Pic4 from "../../assets/images/micro2.png";
+import Pic4 from "../../assets/images/lab2.png";
 import Pic5 from "../../assets/images/play.png";
 import Pic6 from "../../assets/images/native2.png";
 import Pic7 from "../../assets/images/art2.png";
@@ -13,11 +13,11 @@ import Pic8 from "../../assets/images/art3.png";
 import Pic9 from "../../assets/images/sports3.png";
 import Pic10 from "../../assets/images/play3.png";
 import Pic12 from "../../assets/images/grad2.png";
-import Pic13 from "../../assets/images/drawings2.png";
+import Pic13 from "../../assets/images/cultural.png";
 import Pic14 from "../../assets/images/meeting.png";
 import Pic15 from "../../assets/images/kids.png";
 import Pic16 from "../../assets/images/swim.png";
-import Pic11 from "../../assets/images/tye-dye2.png";
+import Pic11 from "../../assets/images/swim.png";
 import { Breadcrum } from "../../components/BreadCrumb/BreadCrumb";
 import "./gallery.scss";
 import Prefooter from "../../components/Prefooter/Prefooter";
@@ -29,7 +29,7 @@ const galleryImages = [
   Pic5,
   Pic6,
   Pic7,
-  Pic11,
+  Pic8,
   Pic9,
   Pic10,
   Pic12,
@@ -69,10 +69,6 @@ export default function Gallery(props) {
           ))}
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
       <br />
       <br />
       <br />
