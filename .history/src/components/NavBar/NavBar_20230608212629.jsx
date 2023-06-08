@@ -74,7 +74,6 @@ function NavBar() {
             </li>{" "}
             <li className="list-inline-item">
               <NavLink
-                to={"/e-shop"}
                 className="tech-links cool-link"
                 activeClassName="active"
               >

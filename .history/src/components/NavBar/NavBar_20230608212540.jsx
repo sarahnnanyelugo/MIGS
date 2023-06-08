@@ -46,47 +46,25 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/admission"}
-                activeClassName="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/admission"}>
                 Admission
               </NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/eyfs"}
-                activeClassName="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/eyfs"}>
                 Academics
               </NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/iec"}
-                activeClassName="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/iec"}>
                 IEC
               </NavLink>
             </li>{" "}
             <li className="list-inline-item">
-              <NavLink
-                to={"/e-shop"}
-                className="tech-links cool-link"
-                activeClassName="active"
-              >
-                E-shop
-              </NavLink>
+              <NavLink className="tech-links cool-link">E-shop</NavLink>
             </li>
             <li className="list-inline-item">
-              <NavLink
-                className="tech-links cool-link"
-                to={"/gallery"}
-                activeClassName="active"
-              >
+              <NavLink className="tech-links cool-link" to={"/gallery"}>
                 Gallery
               </NavLink>
             </li>
