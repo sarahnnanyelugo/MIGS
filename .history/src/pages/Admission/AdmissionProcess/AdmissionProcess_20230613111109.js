@@ -188,9 +188,8 @@ const AdmissionProcess = () => {
                 new form.
               </li>
               <li>
-                If you experience any problems call the Admissions Office on{" "}
-                <a href="#">08138506540</a>, <a href="#">08025082340</a>,
-                <a href="#"> 09021403856</a>
+                If you experience any problems call the Admissions Office on
+                08138506540, 08025082340, 09021403856
               </li>
             </ol>
           </Accordion.Body>

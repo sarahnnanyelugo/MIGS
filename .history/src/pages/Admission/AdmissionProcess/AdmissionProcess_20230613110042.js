@@ -31,7 +31,8 @@ const AdmissionProcess = () => {
             </small>
             <ol>
               <li>
-                Gymboree - (Créche): Ages 3 months -11months by August 31st.
+                Early Years Foundation School (Pre-nursery and Creche): Child
+                must be between 3months - 2 years and 5months.
                 <div className="col-md-12 apply-div">
                   <center>
                     <p>Admission into the EYFS is open for September 2023</p>
@@ -46,43 +47,29 @@ const AdmissionProcess = () => {
                 </div>
               </li>
               <li>
-                Ladybird (Pre-nursery): Ages 1 year and I year 11 months by
-                August 31st.
+                Ladybird (Nursery 1): Child must be between 2 - 3 years by
+                September. The admission Portal for Nursery one opens in
+                September each year and closes in February of the next year.
               </li>
               <li>
-                Bumble Bee (Nursery 1): Ages 2 years - 2 years 11 months by
-                August 31st.
+                Bumble Bee (Nursery 2): Child must be between 3 - 4 years by
+                September
               </li>
               <li>
-                Honey Bee (Nursery 2): Ages 3 years - 3 years 11 months by
-                August 31st.
+                Honey Bee (Nursery 3): Child must be between 4 - 5 years by
+                September
               </li>
               <li>
-                Busy Bee (Nursery 3): Ages 4 years - 4 years 11 months by August
-                31st.
+                Busy Bee (Primary 1): Child must be between 5 - 6 years by
+                September
               </li>
+              <li>Primary 2: Child must be between 6 - 7 years by September</li>
+              <li>Primary 3: Child must be between 7 - 8 years by September</li>
+              <li>Primary 4: Child must be between 8 - 9 years by September</li>
               <li>
-                Primary 2: ChiSpecial Education Inclusion Program: Ages 18months
-                - 5 years by August 31st.
+                Primary 5: Child must be between 9 - 10 years by September
               </li>
-              <li>
-                Primary 1: Ages 5 years - 5 years 11 months by August 31st.
-              </li>
-              <li>
-                Primary 2: Ages 6 years - 6 years 11 months by August 31st.
-              </li>
-              <li>
-                Primary 3: Ages 7 years - 7 years 11 months by August 31st.
-              </li>
-              <li>
-                Primary 4: Ages 8 years - 8 years 11 months by August 31st.
-              </li>
-              <li>
-                Primary 5: Ages n 9 years - 9 years 11 months by August 31st.
-              </li>
-              <li>
-                Primary 6: Ages 10 years - 10 years 11 months by August 31st.
-              </li>
+              <li>Primary 6: Admission not opened</li>
               <small>
                 * Kindly note that admission is not opened from Bumble Bee class
                 to Primary 6 *
@@ -91,17 +78,24 @@ const AdmissionProcess = () => {
               <small>(Admission Portal is opened all year round)</small>
               <ol className="list-unstyled">
                 <li>
-                  Year 7: Student must be between 11 - 11 years 11 months by
-                  August 31st. (There is special concession for children who are
-                  10years and 6months, in the last class of primary 6 and who
-                  meet the cut-off mark in the entrance examination)
+                  Year 10:Student must be between 13 and 14 years by September.
                 </li>
                 <li>
-                  Year 8: Student must be between 12 and 13 years by August
-                  31st.
+                  Year 11: Student must be between 14 and 15 years by September.
                 </li>
-                <li>Year 9: Student must be above 13years.</li>
+                <li>Year 12: Admission is not opened for this class</li>
               </ol>{" "}
+              <h6>Requirements for admission into Senior Secondary</h6>
+              <small>(Admission Portal is opened all year round)</small>
+              <ol className="list-unstyled">
+                <li>
+                  Year 10:Student must be between 13 and 14 years by September.
+                </li>
+                <li>
+                  Year 11: Student must be between 14 and 15 years by September.
+                </li>
+                <li>Year 12: Admission is not opened for this class</li>
+              </ol>
             </ol>
           </Accordion.Body>
         </Accordion.Item>
@@ -134,8 +128,8 @@ const AdmissionProcess = () => {
               </li>
               <li>
                 Read and understand the instructions and Criteria before
-                applying <br />
-                <small style={{ color: "red" }}>
+                applying
+                <small>
                   (Note that there will be no refund once applications have been
                   made).
                 </small>
@@ -188,9 +182,8 @@ const AdmissionProcess = () => {
                 new form.
               </li>
               <li>
-                If you experience any problems call the Admissions Office on{" "}
-                <a href="#">08138506540</a>, <a href="#">08025082340</a>,
-                <a href="#"> 09021403856</a>
+                If you experience any problems call the Admissions Office on
+                08138506540, 08025082340, 09021403856
               </li>
             </ol>
           </Accordion.Body>

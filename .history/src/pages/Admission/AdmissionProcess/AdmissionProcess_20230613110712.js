@@ -102,6 +102,17 @@ const AdmissionProcess = () => {
                 </li>
                 <li>Year 9: Student must be above 13years.</li>
               </ol>{" "}
+              <h6>Requirements for admission into Senior Secondary</h6>
+              <small>(Admission Portal is opened all year round)</small>
+              <ol className="list-unstyled">
+                <li>
+                  Year 10:Student must be between 13 and 14 years by September.
+                </li>
+                <li>
+                  Year 11: Student must be between 14 and 15 years by September.
+                </li>
+                <li>Year 12: Admission is not opened for this class</li>
+              </ol>
             </ol>
           </Accordion.Body>
         </Accordion.Item>
@@ -134,8 +145,8 @@ const AdmissionProcess = () => {
               </li>
               <li>
                 Read and understand the instructions and Criteria before
-                applying <br />
-                <small style={{ color: "red" }}>
+                applying
+                <small>
                   (Note that there will be no refund once applications have been
                   made).
                 </small>
@@ -188,9 +199,8 @@ const AdmissionProcess = () => {
                 new form.
               </li>
               <li>
-                If you experience any problems call the Admissions Office on{" "}
-                <a href="#">08138506540</a>, <a href="#">08025082340</a>,
-                <a href="#"> 09021403856</a>
+                If you experience any problems call the Admissions Office on
+                08138506540, 08025082340, 09021403856
               </li>
             </ol>
           </Accordion.Body>
