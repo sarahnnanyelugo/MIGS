@@ -160,7 +160,6 @@ function Home() {
                 src={Artistic}
                 alt="Scholar"
                 width="100%"
-                style={{ borderRadius: "20px", height: "480px" }}
               />{" "}
             </div>
             <div class="bottom-left2 col-md-6">
@@ -172,14 +171,13 @@ function Home() {
         <div className="col-md-10 offset-md-1 flexy mt2 wins">
           {" "}
           <div className="col-md-4 ">
-            <div className="col-md-12 img-div">
+            <div className="col-md-11 img-div">
               {" "}
               <img
                 className="tech-logo"
                 src={Career}
                 alt="Scholar"
                 width="100%"
-                style={{ height: "485px" }}
               />{" "}
             </div>
             <div class="bottom-left2 col-md-6">
@@ -191,13 +189,13 @@ function Home() {
             <div className="col-md-11 img-div">
               {" "}
               <img
-                className="tech-logo adj-pic"
+                className="tech-logo"
                 src={Learning}
                 alt="Scholar"
                 width="100%"
               />{" "}
             </div>
-            <div class="bottom-left2 col-md-6  adj-pic">
+            <div class="bottom-left2 col-md-6">
               {" "}
               <h3>Continuous Learning</h3>
             </div>
@@ -428,8 +426,7 @@ function Home() {
                     src={Dancer}
                     alt="Scholar"
                     width="100%"
-                    // height="60%"
-                    style={{ height: "367px" }}
+                    height="60%"
                   />{" "}
                 </div>
               </div>

@@ -160,7 +160,7 @@ function Home() {
                 src={Artistic}
                 alt="Scholar"
                 width="100%"
-                style={{ borderRadius: "20px", height: "480px" }}
+                style={{ borderRadius: "20px" }}
               />{" "}
             </div>
             <div class="bottom-left2 col-md-6">
@@ -191,13 +191,14 @@ function Home() {
             <div className="col-md-11 img-div">
               {" "}
               <img
-                className="tech-logo adj-pic"
+                className="tech-logo"
                 src={Learning}
                 alt="Scholar"
                 width="100%"
+                style={{ marginLeft: "40px" }}
               />{" "}
             </div>
-            <div class="bottom-left2 col-md-6  adj-pic">
+            <div class="bottom-left2 col-md-6" style={{ marginLeft: "40px" }}>
               {" "}
               <h3>Continuous Learning</h3>
             </div>

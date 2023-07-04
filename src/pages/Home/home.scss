@@ -286,3 +286,9 @@
     display: none;
   }
 }
+.adj-pic {
+  margin-left: 40px;
+  @media screen and (max-width: 620px) {
+    margin-left: 0px;
+  }
+}
